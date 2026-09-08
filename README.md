@@ -1,5 +1,6 @@
-##Game Design Document
-[View the GDD](GameDesignDocument_LiveAReview.pdf)
+##Important links##
 
-##Trello Board
+-Game Design Document
+[View the GDD](GameDesignDocument_LiveAReview.pdf)
+-Trello Board
 [View the board](https://trello.com/b/zKS9RTHq/game-project)
