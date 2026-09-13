@@ -78,6 +78,12 @@ public class ObjInteraction : MonoBehaviour
                     if (choice != null) {
                         choice.MakeChoice();
                     }
+
+                    PhoneInteraction phone = hit.collider.GetComponent<PhoneInteraction>();
+                    if (phone != null)
+                    {
+                        phone.Interact();
+                    }
                     ResetInteraction();
 
                 }
