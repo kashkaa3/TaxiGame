@@ -2559,6 +2559,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a686711c114cd3f4588989c8fca8e8fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PhoneInteraction
+  warningText: {fileID: 0}
+  PhoneImage: {fileID: 0}
+  cursorV: {fileID: 0}
 --- !u!65 &656238349
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5023,17 +5026,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 156279197299167052, guid: 883380805cc0b4241bb981960fae66a4, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 196895035200412016, guid: 883380805cc0b4241bb981960fae66a4, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -348.73572
       objectReference: {fileID: 0}
     - target: {fileID: 196895035200412016, guid: 883380805cc0b4241bb981960fae66a4, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -43.3
+      value: -37
       objectReference: {fileID: 0}
     - target: {fileID: 313377931756844174, guid: 883380805cc0b4241bb981960fae66a4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5072,17 +5071,9 @@ PrefabInstance:
       value: InteractivePanel
       objectReference: {fileID: 0}
     - target: {fileID: 3881173491738500712, guid: 883380805cc0b4241bb981960fae66a4, type: 3}
-      propertyPath: m_fontSize
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 3881173491738500712, guid: 883380805cc0b4241bb981960fae66a4, type: 3}
       propertyPath: m_fontAsset
       value: 
       objectReference: {fileID: 11400000, guid: a6db38ea8c7332041b87dd4bc373fb59, type: 2}
-    - target: {fileID: 3881173491738500712, guid: 883380805cc0b4241bb981960fae66a4, type: 3}
-      propertyPath: m_fontSizeBase
-      value: 50
-      objectReference: {fileID: 0}
     - target: {fileID: 3881173491738500712, guid: 883380805cc0b4241bb981960fae66a4, type: 3}
       propertyPath: m_sharedMaterial
       value: 
@@ -5093,7 +5084,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4321070691503237243, guid: 883380805cc0b4241bb981960fae66a4, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 78
+      value: 82
       objectReference: {fileID: 0}
     - target: {fileID: 5364863653734364108, guid: 883380805cc0b4241bb981960fae66a4, type: 3}
       propertyPath: m_Color.a
@@ -5128,27 +5119,9 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 9f7b5f09dbef681488fd101d1fabaaab, type: 3}
     - target: {fileID: 7317484068944143623, guid: 883380805cc0b4241bb981960fae66a4, type: 3}
-      propertyPath: m_text
-      value: 'Blah blah blah
-
-'
-      objectReference: {fileID: 0}
-    - target: {fileID: 7317484068944143623, guid: 883380805cc0b4241bb981960fae66a4, type: 3}
-      propertyPath: m_fontSize
-      value: 45
-      objectReference: {fileID: 0}
-    - target: {fileID: 7317484068944143623, guid: 883380805cc0b4241bb981960fae66a4, type: 3}
-      propertyPath: m_margin.w
-      value: -17.103157
-      objectReference: {fileID: 0}
-    - target: {fileID: 7317484068944143623, guid: 883380805cc0b4241bb981960fae66a4, type: 3}
       propertyPath: m_fontAsset
       value: 
       objectReference: {fileID: 11400000, guid: a6db38ea8c7332041b87dd4bc373fb59, type: 2}
-    - target: {fileID: 7317484068944143623, guid: 883380805cc0b4241bb981960fae66a4, type: 3}
-      propertyPath: m_fontSizeBase
-      value: 45
-      objectReference: {fileID: 0}
     - target: {fileID: 7317484068944143623, guid: 883380805cc0b4241bb981960fae66a4, type: 3}
       propertyPath: m_sharedMaterial
       value: 
@@ -5247,10 +5220,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7854384337780777792, guid: 883380805cc0b4241bb981960fae66a4, type: 3}
       propertyPath: m_Color.a
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8088973248451799750, guid: 883380805cc0b4241bb981960fae66a4, type: 3}
-      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8441129927423218289, guid: 883380805cc0b4241bb981960fae66a4, type: 3}
@@ -6092,6 +6061,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a686711c114cd3f4588989c8fca8e8fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PhoneInteraction
+  warningText: {fileID: 0}
+  PhoneImage: {fileID: 0}
+  cursorV: {fileID: 0}
 --- !u!65 &1470238977
 BoxCollider:
   m_ObjectHideFlags: 0

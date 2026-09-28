@@ -6,7 +6,7 @@ public class PhoneInteraction : MonoBehaviour
 {
     public TextMeshProUGUI warningText;
 
-    public GameObject Background;
+    //public GameObject Background;
     public GameObject PhoneImage;
 
     public CursorSystem cursorV;
@@ -15,7 +15,7 @@ public class PhoneInteraction : MonoBehaviour
     private void Awake()
     {
         warningText.gameObject.SetActive(false);
-        Background.SetActive(false);
+        //Background.SetActive(false);
         PhoneImage.SetActive(false);
     }
 
@@ -58,7 +58,7 @@ public class PhoneInteraction : MonoBehaviour
 
     void OpenPhone()
     {
-        Background.SetActive(true);
+        //Background.SetActive(true);
         PhoneImage.SetActive(true);
         Debug.Log("Phone Opened");
         phoneOpened = true;
@@ -69,7 +69,7 @@ public class PhoneInteraction : MonoBehaviour
 
     void ClosePhone()
     {
-        Background.SetActive(false);
+        //Background.SetActive(false);
         PhoneImage.SetActive(false);
         Debug.Log("Phone Closed");
         phoneOpened = false;
