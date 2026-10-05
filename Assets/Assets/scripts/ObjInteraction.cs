@@ -39,7 +39,7 @@ public class ObjInteraction : MonoBehaviour
         if (Physics.Raycast(ray, out hit, interactDistance)) // Check if the raycast hits an object within the specified distance
         {
            // Debug.Log(hit.collider.name);
-            if (hit.collider.CompareTag("Interactable") || hit.collider.CompareTag("Sphere"))
+            if (hit.collider.CompareTag("Interactable"))
             {
                 if (!isFocused) // If not already focused, start the timer
                 {
@@ -49,10 +49,7 @@ public class ObjInteraction : MonoBehaviour
                         isFocused = true;
                         eyeIcon.sprite = eyeOpened;
                         objName.text = hit.collider.gameObject.name; // Display the name of the interactable object
-                        if (hit.collider.CompareTag("Sphere"))
-                        {
-                            objName.text = "";
-                        }
+
                         Debug.Log("ready to interact with " + hit.collider.gameObject);
                     }
 
@@ -60,11 +57,6 @@ public class ObjInteraction : MonoBehaviour
                 if (isFocused && (Input.GetKeyDown(KeyCode.E) || Input.GetMouseButtonDown(0))) // Check for interaction input
                 {
                     Debug.Log("Interacted with " + hit.collider.gameObject);
-                    
-                    DialogChoice choice = hit.collider.GetComponent<DialogChoice>();
-                    if (choice != null) {
-                        choice.MakeChoice();
-                    }
                     
                     PhoneInteraction phone = hit.collider.GetComponent<PhoneInteraction>(); 
                     if (phone != null)

@@ -9,6 +9,8 @@ public class CursorSystem : MonoBehaviour
     public bool inUIMode = false;
     public float sensitivity = 1600f;
 
+    public System.Action OnExitUIMode; // Event to notify when exiting UI mode
+
     void Awake()
     {
         InGameMode();
@@ -26,6 +28,7 @@ public class CursorSystem : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Q)|| Input.GetMouseButtonDown(1))
             {
                 InGameMode();
+                OnExitUIMode?.Invoke(); // Invoke the event when exiting UI mode
             }
 
             MoveVirtualCursor();
@@ -62,5 +65,4 @@ public class CursorSystem : MonoBehaviour
         mainCursor.SetActive(true);
         virtualCursor.gameObject.SetActive(false);
     }
-    
 }

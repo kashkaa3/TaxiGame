@@ -19,12 +19,11 @@ public class PhoneInteraction : MonoBehaviour
         PhoneImage.SetActive(false);
     }
 
-    private void Update()
+    void Start()
     {
-        if (phoneOpened && (Input.GetKeyDown(KeyCode.Q)||Input.GetMouseButtonDown(1))) { //phoneOpened == true
-            ClosePhone();        
-        }
+        cursorV.OnExitUIMode += ClosePhone; // Subscribe to the event
     }
+
     public void Interact()
     {
         if (GameStateManager.Instance.IsDriving)
@@ -69,12 +68,11 @@ public class PhoneInteraction : MonoBehaviour
 
     void ClosePhone()
     {
+        if (!phoneOpened) return; // Prevent closing if the phone is not open
         //Background.SetActive(false);
         PhoneImage.SetActive(false);
         Debug.Log("Phone Closed");
         phoneOpened = false;
-
-        cursorV.InGameMode();
         //Time.timeScale = 1f; //when phone is closed world continues
     }
 

@@ -21,7 +21,7 @@ public class CigaretteInteraction : MonoBehaviour
     public void Interact()
     {
         if (GameStateManager.Instance.IsDriving) { 
-            StartCoroutine(ShowWarning("You can't smoke with passenger inside"));
+            StartCoroutine(ShowWarning("You can't smoke while driving"));
             return;
         }
         if (!GameStateManager.Instance.RideFinished)
