@@ -8,12 +8,14 @@ public class CarPathFollower : MonoBehaviour
 
     public List<WaypointNode> waypoints;
 
-    public float moveSpeed = 5f;
+    public float moveSpeed = 10f;
     public float rotationSpeed = 2f;
     public float arrivalRadius = 2f;
 
     private int currentWaypoint = 0;
     private bool waitingForDecision = false;
+
+    public int CurrentWaypointIndex => currentWaypoint;
 
     void Start()
     {

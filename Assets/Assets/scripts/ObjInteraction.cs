@@ -70,6 +70,12 @@ public class ObjInteraction : MonoBehaviour
                         cigarette.Interact();
                     }
 
+                    GPSInteraction gps = hit.collider.GetComponent<GPSInteraction>();
+                    if (gps != null)
+                    {
+                        gps.Interact();
+                    }
+
                     ResetInteraction();
 
                 }
