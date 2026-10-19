@@ -9,6 +9,8 @@ public class GameStateManager : MonoBehaviour
 
     public int PassengerNumber = 0; //0 for testing
 
+    public int Points = 0;
+
     private void Awake()
     {
         Instance = this;

@@ -5,7 +5,9 @@ public class WaveDisplay : MonoBehaviour
     [Header("Preview")]
     public bool previewMode = true; 
     [Range(0f,1f)]
-    public float previewProgress = 1f;
+    public float previewHeight = 1f;
+    [Range(0f, 1f)]
+    public float previewCycles = 1f;
 
     [Header("Connections")]
     public AtmosphereController atmosphere;
@@ -14,10 +16,10 @@ public class WaveDisplay : MonoBehaviour
     public GameObject dialogueText;
 
     [Header("Wave shape")]
-    public int dotCount = 100;
-    public float width = 700f;
-    public float height = 40f;
-    public float cycles = 2f;
+    public int dotCount = 200;
+    public float width = 1000f;
+    public float height = 30f;
+    public float cycles = 3f;
 
     [Header("Distortion")]
     public float distortionPerfect = 0f;
@@ -29,10 +31,13 @@ public class WaveDisplay : MonoBehaviour
     public float extraCycles = 5f;
     public float wobbleHeight = 12f;
     public float wobbleSpeed = 6f;
+    public float waveSpeed = 2f;
     public float changeSpeed = 1.5f;
 
     RectTransform[] dots;
-    float distortion = 1f;
+    float distortion = 1f; //for wobble
+    float distortionHeight = 1f; //how mood wrong is
+    float distortionCycles = 1f; //how song wrong is
 
     void Start()
     {
@@ -50,17 +55,21 @@ public class WaveDisplay : MonoBehaviour
     void Update()
     {
         bool showWave;
-        float target;
+        float targetHeight;
+        float targetCycles;
 
         if (previewMode)
         {
             showWave = true;
-            target = previewProgress;
+            targetHeight = previewHeight;
+            targetCycles = previewCycles;
         }
         else
         {
             showWave = atmosphere.isInputActive;
-            target = GetDistortion(atmosphere.GetCurrentResult().level);
+            AtmosphereResult result = atmosphere.GetCurrentResult();
+            targetHeight = GetDistortion(result.level, result.moodCorrect);
+            targetCycles = GetDistortion(result.level, result.songCorrect);
         }
 
         wavePanel.SetActive(showWave);
@@ -74,29 +83,33 @@ public class WaveDisplay : MonoBehaviour
             return;
         }
 
-        distortion = Mathf.MoveTowards(distortion, target, changeSpeed * Time.deltaTime);
+        distortionHeight = Mathf.MoveTowards(distortionHeight, targetHeight, changeSpeed * Time.deltaTime);
+        distortionCycles = Mathf.MoveTowards(distortionCycles, targetCycles, changeSpeed * Time.deltaTime);
+        distortion = Mathf.Max(distortionHeight, distortionCycles);
         MoveDots();
     }
 
-    float GetDistortion(FitLevel level)
+    float GetDistortion(FitLevel level, bool correct)
     {
         if (level == FitLevel.Perfect) return distortionPerfect;
         if (level == FitLevel.Close) return distortionClose;
+        if (correct) return distortionPerfect; // If the level is not perfect or close, but the answer is correct, use perfect distortion
         if (level == FitLevel.OneCorrect) return distortionOneCorrect;
         return distortionNone;
     }
 
     void MoveDots()
     {
-        float currentCycle = cycles + extraCycles * distortion;
-        float currentHeight = height + extraHight * distortion;
+
+        float currentCycle = cycles + extraCycles * distortionCycles;
+        float currentHeight = height + extraHight * distortionHeight;
 
         for (int i =0; i < dotCount; i++)
         {
             float progress = i / (float)(dotCount - 1);
             float x = (progress - 0.5f) * width;
 
-            float y = Mathf.Sin(progress * currentCycle * Mathf.PI * 2f) * currentHeight;
+            float y = Mathf.Sin(progress * currentCycle * Mathf.PI * 2f + Time.time * waveSpeed) * currentHeight;
             float wobble = Mathf.Sin(progress * 30f + Time.time * wobbleSpeed) * wobbleHeight * distortion;
 
             dots[i].anchoredPosition = new Vector2(x, y + wobble);

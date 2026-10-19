@@ -52,16 +52,20 @@ public class AtmosphereController : MonoBehaviour
             {
                 result.level = FitLevel.Perfect;
                 result.comboIndex = i;
-                moodFound = true;
-                songFound = true;
-                break;
+                result.moodCorrect = true;
+                result.songCorrect = true;
+                return result; // Return immediately if a perfect match is found
             }
             if (moodMatch) moodFound = true;
             if (songMatch) songFound = true;
         }
 
+        result.moodCorrect = moodFound; // Set the moodCorrect flag based on whether a matching mood was found
+        result.songCorrect = songFound; // Set the songCorrect flag based on whether a matching song was found
+
         if (moodFound && songFound) result.level = FitLevel.Close; // Both mood and song are found but not in the same combo
         else if (moodFound || songFound) result.level = FitLevel.OneCorrect; // Only one of mood or song is found
+        else result.level = FitLevel.None; // Neither mood nor song is found
         return result;
     }
 
@@ -76,5 +80,14 @@ public class AtmosphereController : MonoBehaviour
             lastResult = GetCurrentResult();
             Debug.Log("Finished: " + lastResult.level + ", combo " + lastResult.comboIndex);
         }
+
+        /////////////TEST PART//////////////////
+        if (Input.GetKeyDown(KeyCode.H)) SetMood("happy");
+        if (Input.GetKeyDown(KeyCode.A)) SetMood("angry");
+        if (Input.GetKeyDown(KeyCode.S)) SetMood("sad");
+        if (Input.GetKeyDown(KeyCode.J)) SetSong("jazz");
+        if (Input.GetKeyDown(KeyCode.R)) SetSong("rock");
+        if (Input.GetKeyDown(KeyCode.L)) SetSong("lofi");
+        ///////////////////////////////////////
     }
 }

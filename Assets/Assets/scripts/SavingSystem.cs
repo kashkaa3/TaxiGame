@@ -16,6 +16,7 @@ public class SavingSystem : MonoBehaviour
 
         //All data that needs to be saved should be added here
         data.passengerNumber = GameStateManager.Instance.PassengerNumber;
+        data.points = GameStateManager.Instance.Points;
 
 
         string json = JsonUtility.ToJson(data);// Serialize the data to JSON
@@ -32,8 +33,8 @@ public class SavingSystem : MonoBehaviour
             
             // Restore the saved data to the game state
             GameStateManager.Instance.PassengerNumber = data.passengerNumber;
-            
-            
+            GameStateManager.Instance.Points = data.points;
+
             Debug.Log("Game loaded from: " + saveFilePath);
         }
         else

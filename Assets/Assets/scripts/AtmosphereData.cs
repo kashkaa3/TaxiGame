@@ -12,10 +12,10 @@ public class Combo {
 
 public enum FitLevel
 {
-    None,
-    OneCorrect,
-    Close,
-    Perfect
+    None, //song and mood do not match any combo
+    OneCorrect, //either song or mood matches a combo, but not both
+    Close, //both song and mood match combos, but not the same combo
+    Perfect //both song and mood match the same combo
 }
 
 public class AtmosphereResult
@@ -24,6 +24,8 @@ public class AtmosphereResult
     public int comboIndex = -1; // Index of the matched combo in the list, -1 if no match
     public string mood = ""; // The mood of the matched combo
     public string song = ""; // The song of the matched combo
+    public bool moodCorrect = false; 
+    public bool songCorrect = false;
 }
 
 

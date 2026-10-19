@@ -4,4 +4,5 @@ using UnityEngine;
 public class SavingData
 {
     public int passengerNumber;
+    public int points;
 }

@@ -76,6 +76,19 @@ public class ObjInteraction : MonoBehaviour
                         gps.Interact();
                     }
 
+                    RadioInteraction radio = hit.collider.GetComponent<RadioInteraction>();
+                    if (radio != null)
+                    {
+                        radio.Interact();
+                    }
+
+                    LightsInteraction lights = hit.collider.GetComponent<LightsInteraction>();
+                    if (lights != null)
+                    {
+                        lights.Interact();
+                    }
+
+
                     ResetInteraction();
 
                 }
