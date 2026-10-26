@@ -6,10 +6,10 @@ public class LightsUI : MonoBehaviour
     public RGBBlipSystem blipSystem;
     public Image[] slots;
 
-    public Color emptyColor = new Color(1f, 1f, 1f, 0.15f);
-    public Color redColor = Color.red;
-    public Color greenColor = Color.green;
-    public Color blueColor = Color.blue;
+    [Header("Blip Sprites")]
+    public Sprite redBlip;
+    public Sprite greenBlip;
+    public Sprite blueBlip;
 
     void OnEnable()
     {
@@ -30,19 +30,26 @@ public class LightsUI : MonoBehaviour
         for (int i = 0; i < slots.Length; i++)
         {
             if (i < offset)
-                slots[i].color = emptyColor;
+            {
+                slots[i].enabled = false;
+            }
             else
-                slots[i].color = ColorFor(blips[i - offset]);
+            {
+                slots[i].enabled = true;
+                slots[i].sprite = SpriteFor(blips[i - offset]);
+                slots[i].color = Color.white;
+            }
+                
         }
     }
 
-    private Color ColorFor(BlipColor blip)
+    private Sprite SpriteFor(BlipColor blip)
     {
         switch (blip)
         {
-            case BlipColor.R: return redColor;
-            case BlipColor.G: return greenColor;
-            default:          return blueColor;
+            case BlipColor.R: return redBlip;
+            case BlipColor.G: return greenBlip;
+            default:          return blueBlip;
         }
     }
 }

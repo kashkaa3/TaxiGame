@@ -22,8 +22,8 @@ public class DialogueManager : MonoBehaviour
 
     BaseNode nextNode;
 
-    [Header("TEMPORARY TEST - delete later")]
-    public WaveDisplay waveDisplay;
+    //[Header("TEMPORARY TEST - delete later")]
+    //public WaveDisplay waveDisplay;
 
 
     void Awake()
@@ -78,8 +78,8 @@ public class DialogueManager : MonoBehaviour
     {
         isTalking = false;
         //dialoguePanel.SetActive(false); // Hide for test unhide later
-        waveDisplay.previewMode = true; // Test!!!
-        characterName.text = ""; // Test!!!
+        //waveDisplay.previewMode = true; // Test!!!
+        //characterName.text = ""; // Test!!!
         Debug.Log("Dialogue Ended"); 
     }
 

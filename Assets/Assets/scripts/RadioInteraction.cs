@@ -4,6 +4,7 @@ public class RadioInteraction : MonoBehaviour
 {
     public InteractiveViewManager viewManager;
     public CursorSystem cursorV;
+    public RadioController radio;
 
     private bool radioOpened = false;
 
@@ -29,6 +30,9 @@ public class RadioInteraction : MonoBehaviour
             Debug.LogError("RadioInteraction: View manager missing in inspector");
             return;
         }
+
+        if (radio != null) radio.TurnOn();
+        else Debug.LogWarning("RadioInteraction: RAdio missing in inspector");
 
         viewManager.ToggleRadio();
         cursorV.InUIMode();

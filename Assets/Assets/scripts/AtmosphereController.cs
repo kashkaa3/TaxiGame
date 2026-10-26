@@ -81,13 +81,5 @@ public class AtmosphereController : MonoBehaviour
             Debug.Log("Finished: " + lastResult.level + ", combo " + lastResult.comboIndex);
         }
 
-        /////////////TEST PART//////////////////
-        if (Input.GetKeyDown(KeyCode.H)) SetMood("happy");
-        if (Input.GetKeyDown(KeyCode.A)) SetMood("angry");
-        if (Input.GetKeyDown(KeyCode.S)) SetMood("sad");
-        if (Input.GetKeyDown(KeyCode.J)) SetSong("jazz");
-        if (Input.GetKeyDown(KeyCode.R)) SetSong("rock");
-        if (Input.GetKeyDown(KeyCode.L)) SetSong("lofi");
-        ///////////////////////////////////////
     }
 }

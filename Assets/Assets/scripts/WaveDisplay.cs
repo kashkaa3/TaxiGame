@@ -2,12 +2,6 @@ using UnityEngine;
 
 public class WaveDisplay : MonoBehaviour
 {
-    [Header("Preview")]
-    public bool previewMode = true; 
-    [Range(0f,1f)]
-    public float previewHeight = 1f;
-    [Range(0f, 1f)]
-    public float previewCycles = 1f;
 
     [Header("Connections")]
     public AtmosphereController atmosphere;
@@ -54,23 +48,7 @@ public class WaveDisplay : MonoBehaviour
 
     void Update()
     {
-        bool showWave;
-        float targetHeight;
-        float targetCycles;
-
-        if (previewMode)
-        {
-            showWave = true;
-            targetHeight = previewHeight;
-            targetCycles = previewCycles;
-        }
-        else
-        {
-            showWave = atmosphere.isInputActive;
-            AtmosphereResult result = atmosphere.GetCurrentResult();
-            targetHeight = GetDistortion(result.level, result.moodCorrect);
-            targetCycles = GetDistortion(result.level, result.songCorrect);
-        }
+        bool showWave = atmosphere.isInputActive;
 
         wavePanel.SetActive(showWave);
         if (dialogueText != null)
@@ -80,8 +58,14 @@ public class WaveDisplay : MonoBehaviour
         if (!showWave)
         {
             distortion = 1f;
+            distortionHeight = 1f;
+            distortionCycles = 1f;
             return;
         }
+
+        AtmosphereResult result = atmosphere.GetCurrentResult();
+        float targetHeight = GetDistortion(result.level, result.moodCorrect);
+        float targetCycles = GetDistortion(result.level, result.songCorrect);
 
         distortionHeight = Mathf.MoveTowards(distortionHeight, targetHeight, changeSpeed * Time.deltaTime);
         distortionCycles = Mathf.MoveTowards(distortionCycles, targetCycles, changeSpeed * Time.deltaTime);

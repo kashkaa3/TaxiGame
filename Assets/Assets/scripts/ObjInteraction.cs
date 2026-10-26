@@ -17,7 +17,6 @@ public class ObjInteraction : MonoBehaviour
     public Sprite eyeOpened;
     public TextMeshProUGUI objName;
 
-
     //GameObject currentObject; 
 
     void Start ()
@@ -27,7 +26,7 @@ public class ObjInteraction : MonoBehaviour
     void Update()
     {
         if (cursorV.inUIMode) // Check if the player is in UI mode, and if so, skip interaction logic
-        { 
+        {
             return;
         }
 
@@ -41,6 +40,7 @@ public class ObjInteraction : MonoBehaviour
            // Debug.Log(hit.collider.name);
             if (hit.collider.CompareTag("Interactable"))
             {
+
                 if (!isFocused) // If not already focused, start the timer
                 {
                     timer += Time.deltaTime;
@@ -88,6 +88,12 @@ public class ObjInteraction : MonoBehaviour
                         lights.Interact();
                     }
 
+                    NotesInteraction notes = hit.collider.GetComponent<NotesInteraction>();
+                    if (notes != null)
+                    {
+                        notes.Interact();
+                    }
+
 
                     ResetInteraction();
 
@@ -112,4 +118,5 @@ public class ObjInteraction : MonoBehaviour
         eyeIcon.sprite = eyeClosed; // Reset the eye icon to closed when not focused on an interactable object
         objName.text = ""; // Clear the object name display each frame
     }
+
 }

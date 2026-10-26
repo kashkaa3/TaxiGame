@@ -1,4 +1,3 @@
-using System.Collections;
 using UnityEngine;
 
 [System.Serializable]
@@ -13,36 +12,69 @@ public class RadioController : MonoBehaviour
 {
 
     [Header("Audio")]
-    public AudioSource audioSource;
+    public AudioSource audioSource; // music
+    public AudioSource noiseSource; // white noise
+    public AudioClip noiseClip; // if empty, one is generated
     public RadioStation[] stations = new RadioStation[4];
 
-    [Header("Fade")]
-    public float fadeDuration = 0.5f;
+    [Header("Volume")]
+    [Range(0f, 1f)] public float musicVolume = 1f;
+    [Range(0f, 1f)] public float noiseVolume = 0.3f;
+    public float powerFadeSpeed = 2;
+
 
     private int currentStation = 0;
-    private bool isOn = false;
-    private float userVolume = 1f;
-    private Coroutine fadeRoutine;
+    [SerializeField]private bool isOn = false;
+    [SerializeField]private float signal = 1f;  // 0 = Noise ; 1 = Music
+    [SerializeField]private float master = 0f;  // general volume
 
     public bool IsOn => isOn;
-    public int CurrentStation => currentStation;
+    public float Signal => signal;
+    public int CurrentStationIndex => currentStation;
     public string CurrentStationName => stations.Length > 0 ? stations[currentStation].name : "";
+    
 
     //Tells other scripts that the station changed
     public event System.Action<int> OnStationChanged;
 
     void Start()
     {
-        userVolume = audioSource.volume;
+        noiseSource.clip = noiseClip != null ? noiseClip : GenerateNoise();
+        noiseSource.loop = true;
+        noiseSource.Play();
+
+        PlayCurrentStation();
     }
 
+    void Update()
+    {
+        float targetMaster = isOn ? 1f : 0f;
+        master = Mathf.MoveTowards(master, targetMaster, powerFadeSpeed * Time.deltaTime);
+
+        audioSource.volume = musicVolume * signal * master;
+        noiseSource.volume = noiseVolume * (1f - signal) * master;
+    }
+
+
+    public void TurnOn()
+    {
+        isOn = true;
+    }
 
     public void TogglePower()
     {
         isOn = !isOn;
 
-        if (isOn) StartFade(stations[currentStation].clip, true);
-        else StartFade(null, false);
+    }
+
+    public void SetSignal(float value)
+    {
+        signal = Mathf.Clamp01(value);
+    }
+
+    public void SetVolume(float value)
+    {
+        musicVolume = Mathf.Clamp01(value);
     }
 
     public void NextStation()
@@ -61,59 +93,44 @@ public class RadioController : MonoBehaviour
         ChangeStation(index);
     }
 
-    public void SetVolume(float value)
-    {
-        userVolume = Mathf.Clamp01(value);
+ 
 
-        if (fadeRoutine == null) audioSource.volume = userVolume;
-    }
+
 
     private void ChangeStation(int newIndex)
     {
         if (stations.Length == 0 || newIndex == currentStation) return;
 
         currentStation = newIndex;
+        PlayCurrentStation();
         OnStationChanged?.Invoke(currentStation);
-
-        if (isOn) StartFade(stations[currentStation].clip, true);
     }
 
-    private void StartFade(AudioClip newClip, bool playAfter)
+    private void PlayCurrentStation()
     {
-        if (fadeRoutine != null) StopCoroutine(fadeRoutine);
-        fadeRoutine = StartCoroutine(FadeRoutine(newClip, playAfter));
-    }
-
-    private IEnumerator FadeRoutine(AudioClip newClip, bool playAfter)
-    {
-        float startVolume = audioSource.volume;
-        for (float t= 0; t < fadeDuration; t+= Time.deltaTime)
-        {
-            audioSource.volume = Mathf.Lerp(startVolume, 0f, t / fadeDuration);
-            yield return null;
-        }
-        audioSource.volume = 0f;
-
-        if (playAfter && newClip != null)
-        {
-            audioSource.clip = newClip;
-            audioSource.loop = true;
-            audioSource.Play();
-        }
-        else
+        if (stations.Length == 0 || stations[currentStation].clip == null)
         {
             audioSource.Stop();
-            audioSource.volume = userVolume;
-            fadeRoutine = null;
-            yield break;
+            return;
         }
 
-        for (float t = 0; t < fadeDuration; t += Time.deltaTime)
-        {
-            audioSource.volume = Mathf.Lerp(0f, userVolume, t / fadeDuration);
-            yield return null;
-        }
-        audioSource.volume = userVolume;
-        fadeRoutine = null;
+        audioSource.clip = stations[currentStation].clip;
+        audioSource.loop = true;
+        audioSource.Play();
     }
+
+    private AudioClip GenerateNoise()
+    {
+        int sampleRate = 44100;
+        float[] samples = new float[sampleRate * 2];
+
+        for (int i = 0;  i < samples.Length; i++)
+            samples[i] = Random.Range(-1f, 1f);
+
+        AudioClip clip = AudioClip.Create("GeneratedNoise", samples.Length, 1, sampleRate, false);
+        clip.SetData(samples, 0);
+        return clip;
+    }
+
+    
 }
