@@ -12,7 +12,7 @@ public class RGBBlipSystem : MonoBehaviour
     public int maxBlips = 10;
 
     [Header("Story emotion")]
-    [Range(0.5f, 1f)] public float minShare = 0.3f;
+    [Range(0.5f, 1f)] public float minShare = 0.4f;
 
     [Header("Glitch")]
     public bool glitchesEnabled = false;   // Desactivados para la beta

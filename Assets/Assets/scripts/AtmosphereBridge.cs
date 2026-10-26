@@ -16,14 +16,20 @@ public class AtmosphereBridge : MonoBehaviour
     public RGBBlipSystem lights;
 
     [Header("Radio")]
-    [Tooltip("If true, a radio that is turned off sends no song at all")]
-    public bool onlyCountIfRadioOn = false;
+    [Tooltip("Below this signal (static) the song doesn´t count")]
+    [Range(0.1f, 1f)] public float minSignal = 0.5f;
 
+    //TO DO REAL EMOTIONS NAMES
     [Header("Lights: mood id for each dominant color")]
-    public string redMood = "angry";
-    public string greenMood = "happy";
-    public string blueMood = "sad";
-    public string neutralMood = "neutral";
+    public string redMood = "red";
+    public string greenMood = "green";
+    public string blueMood = "blue";
+    public string redGreenMood = "redgreen";
+    public string redBlueMood = "redblue";
+    public string greenBlueMood = "greenblue";
+
+    [Header("Debug")]
+    public bool debugLog = false;
 
     [Header("Combos used by the test checkpoint")]
     public List<ComboData> testCombos = new List<ComboData>();
@@ -53,6 +59,7 @@ public class AtmosphereBridge : MonoBehaviour
             {
                 lastSong = song;
                 atmosphere.SetSong(song);
+                if (debugLog) Debug.Log("Bridge -> song: '" + song + "'");
             }
         }
 
@@ -103,17 +110,21 @@ public class AtmosphereBridge : MonoBehaviour
         if (radio == null) return;
         lastSong = GetCurrentSongId();
         atmosphere.SetSong(lastSong);
+        if (debugLog) Debug.Log("Bridge -> song: '" + lastSong + "'");
     }
 
     void SendMood()
     {
         if (lights == null) return;
-        atmosphere.SetMood(GetMoodId());
+        string mood = GetMoodId();
+        atmosphere.SetMood(mood);
+        if (debugLog) Debug.Log("Bridge -> mood: '" + mood + "'");
     }
 
     string GetCurrentSongId()
     {
-        if (onlyCountIfRadioOn && !radio.IsOn) return "";
+        if (!radio.IsOn) return ""; // radio off
+        if (radio.Signal < minSignal) return ""; // too much static
 
         int index = radio.CurrentStationIndex;
 
@@ -128,11 +139,16 @@ public class AtmosphereBridge : MonoBehaviour
 
     string GetMoodId()
     {
-        BlipColor? dominant = lights.DominantColor;
-
-        if (dominant == BlipColor.R) return redMood;
-        if (dominant == BlipColor.G) return greenMood;
-        if (dominant == BlipColor.B) return blueMood;
-        return neutralMood;
+        switch (lights.CurrentBlend)
+        {
+            case ColorBlend.Red:        return redMood;
+            case ColorBlend.Green:      return greenMood;
+            case ColorBlend.Blue:       return blueMood;
+            case ColorBlend.RedBlue:    return redBlueMood;
+            case ColorBlend.RedGreen:   return redGreenMood;
+            case ColorBlend.GreenBlue:  return greenBlueMood;
+            default:                    return "";
+            
+        }
     }
 }

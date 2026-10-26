@@ -16,6 +16,8 @@ public class AtmosphereController : MonoBehaviour
     public void Checkpoint(List<Combo> validCombos)
     { // Method to set the valid combos and reset the input state
         combos = validCombos;
+        foreach (Combo c in validCombos)
+            Debug.Log("Combo expected -> mood: '" + c.mood + "' song: '" + c.song + "'");
         mood = "";
         song = "";
         timeLeft = timeLimit;
@@ -78,7 +80,8 @@ public class AtmosphereController : MonoBehaviour
         {
             isInputActive = false;
             lastResult = GetCurrentResult();
-            Debug.Log("Finished: " + lastResult.level + ", combo " + lastResult.comboIndex);
+            Debug.Log("Finished: " + lastResult.level + ", combo " + lastResult.comboIndex +
+                " | moodCorrect: " + lastResult.moodCorrect + ", songCorrect: " + lastResult.songCorrect);
         }
 
     }
