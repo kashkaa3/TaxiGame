@@ -1058,7 +1058,7 @@ MonoBehaviour:
         PublicKeyToken=null
       connections:
       - fieldName: exit
-        node: {fileID: 1677999718142092036}
+        node: {fileID: 5409946264617930825}
         reroutePoints: []
       _direction: 0
       _connectionType: 0
@@ -3410,7 +3410,7 @@ MonoBehaviour:
   m_Name: Start
   m_EditorClassIdentifier: Assembly-CSharp::StartNode
   graph: {fileID: 11400000}
-  position: {x: 1192, y: 2280}
+  position: {x: -488, y: -184}
   ports:
     keys:
     - exit
@@ -3421,7 +3421,7 @@ MonoBehaviour:
         PublicKeyToken=null
       connections:
       - fieldName: entry
-        node: {fileID: -6721134435007383818}
+        node: {fileID: 7795051601702436799}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -4737,8 +4737,8 @@ MonoBehaviour:
   - song: rock
     mood: green
     points: 2
-  noTimeLimit: 1
-  holdTime: 5
+  noTimeLimit: 0
+  holdTime: 0
 --- !u!114 &5379770347682841250
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4850,7 +4850,10 @@ MonoBehaviour:
       _node: {fileID: 5409946264617930825}
       _typeQualifiedName: EmptyStruct, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
-      connections: []
+      connections:
+      - fieldName: entry
+        node: {fileID: -6721134435007383818}
+        reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
@@ -5573,7 +5576,10 @@ MonoBehaviour:
       _node: {fileID: 7795051601702436799}
       _typeQualifiedName: EmptyStruct, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
-      connections: []
+      connections:
+      - fieldName: exit
+        node: {fileID: 1677999718142092036}
+        reroutePoints: []
       _direction: 0
       _connectionType: 0
       _typeConstraint: 0
