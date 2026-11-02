@@ -19,17 +19,32 @@ public class DialogueManager : MonoBehaviour
 
     [Header("Atmosphere")]
     public AtmosphereController atmosphere;
+    public AtmosphereBridge bridge;
+
+    [Header("Skip")]
+    public bool skipEnabled = true; // Flag to enable or disable skipping the dialogue
+    bool skipPressed = false; // Flag to check if the skip button has been pressed
 
     BaseNode nextNode;
-
-    //[Header("TEMPORARY TEST - delete later")]
-    //public WaveDisplay waveDisplay;
-
 
     void Awake()
     {
         dialoguePanel.SetActive(false);
     }
+
+    void Update()
+    {
+        if (!Skip()) return; // Check if the skip button is pressed and handle skipping the dialogue
+        if (atmosphere.isInputActive) return;
+        if (Input.GetKeyDown(KeyCode.Space)) skipPressed = true; // Allow skipping with the space bar for testing
+    }
+
+    bool Skip()
+    {
+        bool gameFinished = PlayerPrefs.GetInt("gameFinished", 0) == 1;
+        return skipEnabled || gameFinished;
+    }
+
     //////////////////////////////////////////////////////////////////////////////////////
     ////////////////////////////////////DIALOGUE ACTTIONS ////////////////////////////////
     /////////////////////////////////////////////////////////////////////////////////////
@@ -56,6 +71,7 @@ public class DialogueManager : MonoBehaviour
         {
             DialogueNode dialogue = node as DialogueNode;
             ChoiceNode choiceNode = node as ChoiceNode;
+            TutorialNode tutorial = node as TutorialNode;
 
             if (dialogue != null) 
             {
@@ -66,6 +82,11 @@ public class DialogueManager : MonoBehaviour
             {
                 yield return StartCoroutine(RunChoice(choiceNode));
                 node = nextNode;
+            }
+            else if (tutorial != null)
+            {
+                yield return StartCoroutine(RunTutorial(tutorial));
+                node = tutorial.GetNext();
             }
             else
             {
@@ -90,9 +111,33 @@ public class DialogueManager : MonoBehaviour
     IEnumerator RunChoice (ChoiceNode choiceNode)
     {
         characterName.text = ""; //hide name while wave runs
+        atmosphere.noTimeLimit = choiceNode.noTimeLimit;
         atmosphere.Checkpoint(choiceNode.GetCombos());
 
-        yield return new WaitUntil(() => !atmosphere.isInputActive); //waits until timer is over
+        if (choiceNode.noTimeLimit)
+        {
+            float held = 0f; // how long the right combo has been held
+            int lastCombo = -1; // which combo was right last frame, -1 if none
+
+            while (true) //waits until timer is over or right combo has been held long enough
+            {
+                AtmosphereResult now = atmosphere.GetCurrentResult(); //get the current result of the combo check
+                bool right = (now.level == FitLevel.Perfect); //check if the current result is a perfect match
+
+                if (right && now.comboIndex == lastCombo) held += Time.deltaTime; //if the right combo is being held, increase the held time
+                else held = 0f;
+
+                lastCombo = right ? now.comboIndex : -1; //update the last combo index if right, otherwise reset to -1
+
+                if (right && held >= choiceNode.holdTime) break;   //if the right combo has been held long enough, exit the loop
+                yield return null;
+            }
+            atmosphere.Finish(); 
+        }
+        else
+        {
+            yield return new WaitUntil(() => !atmosphere.isInputActive); //waits until timer is over
+        }
 
         AtmosphereResult result = atmosphere.lastResult;
 
@@ -113,21 +158,55 @@ public class DialogueManager : MonoBehaviour
             characterImage.sprite = line.sprite; // Update the character image in the UI
         }
 
+        skipPressed = false; // Reset the skip button state at the start of typing a new line
         dialogueText.text = " ";
         isTalking = true; // Set isTalking to true when starting to type the line
         foreach (char letter in line.dialogLine)
         {
+            if (skipPressed)
+            {
+                dialogueText.text = line.dialogLine;
+                skipPressed = false;
+                break;
+            }
             dialogueText.text += letter;
             yield return new WaitForSeconds(typingSpeed);
         }
         isTalking = false; // Set isTalking to false after the line has been fully typed
-
-        yield return new WaitForSeconds(ReadingTime(line.dialogLine)); // Wait for the reading time before continuing
+        
+        float waitTime = ReadingTime(line.dialogLine); // Calculate the time to wait based on the length of the dialogue line
+        float timer = 0f;
+        while (timer < waitTime && !skipPressed)
+        {
+            timer += Time.deltaTime;
+            yield return null;
+        }
+        skipPressed = false; // Reset the skip button state after waiting for the reading time
     }
 
     float ReadingTime(string text)
     {
         int wordCount = text.Split(' ').Length; // Count the number of words in the text
         return 1.5f + (wordCount * 0.18f); //base time + time per word
+    }
+
+    IEnumerator RunTutorial (TutorialNode t)
+    {
+        string sSong = t.song.Trim().ToLower();
+        string mMood = t.mood.Trim().ToLower();
+
+        float held = 0f;
+
+        while (true)
+        {
+            bool right = (sSong == "" || bridge.GetCurrentSongId().ToLower() == sSong) && 
+                (mMood == "" || bridge.GetMoodId().ToLower() == mMood);
+            if (right) held += Time.deltaTime;
+            else held = 0f;
+
+            if (right && held >= t.holdTime) break;
+
+            yield return null;
+        }
     }
 }

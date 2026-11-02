@@ -45,7 +45,7 @@ public class InteractiveViewManager : MonoBehaviour
         {
             HideAll();
         }
-            
+
         else
         {
             ShowRadio();

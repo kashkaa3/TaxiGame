@@ -22,6 +22,9 @@ public class RadioTuner : MonoBehaviour
     public float tuneSpeed = 1.5f;
     public float acceleration = 6f;
 
+    [Header("Start")]
+    [Range(0f, 1f)] public float startPosition = 0.5f; // 0 left, 1 right, 0.5 middle
+
     [Header("Signal")]
     public float clearRadius = 8f;
 
@@ -48,8 +51,7 @@ public class RadioTuner : MonoBehaviour
                 return;
             }
 
-            float start = stationX[radio.CurrentStationIndex];
-            tuning = Mathf.InverseLerp(needleLeftX, needleRightX, start) * stationX.Length;
+            tuning = startPosition * stationX.Length;
             initialized = true;
         }
 

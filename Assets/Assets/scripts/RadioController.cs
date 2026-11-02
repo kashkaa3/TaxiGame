@@ -4,7 +4,9 @@ using UnityEngine;
 public class RadioStation
 {
     public string name;
-    public AudioClip clip;
+    public AudioClip[] clips;
+
+    [System.NonSerialized] public int lastIndex = -1;
 }
 
 
@@ -17,10 +19,13 @@ public class RadioController : MonoBehaviour
     public AudioClip noiseClip; // if empty, one is generated
     public RadioStation[] stations = new RadioStation[4];
 
+    [Header("Playlist")]
+    public bool shuffle = true; //random songs
+
     [Header("Volume")]
     [Range(0f, 1f)] public float musicVolume = 1f;
     [Range(0f, 1f)] public float noiseVolume = 0.3f;
-    public float powerFadeSpeed = 2;
+    public float powerFadeSpeed = 2f;
 
 
     private int currentStation = 0;
@@ -48,11 +53,14 @@ public class RadioController : MonoBehaviour
 
     void Update()
     {
+        if (stations.Length > 0 && !audioSource.isPlaying && HasClips(stations[currentStation]))
+            PlayCurrentStation();
+
         float targetMaster = isOn ? 1f : 0f;
         master = Mathf.MoveTowards(master, targetMaster, powerFadeSpeed * Time.deltaTime);
 
-        audioSource.volume = musicVolume * signal * master;
-        noiseSource.volume = noiseVolume * (1f - signal) * master;
+        audioSource.volume = musicVolume * musicVolume * signal * master;
+        noiseSource.volume = noiseVolume * musicVolume * (1f - signal) * master;
     }
 
 
@@ -93,10 +101,6 @@ public class RadioController : MonoBehaviour
         ChangeStation(index);
     }
 
- 
-
-
-
     private void ChangeStation(int newIndex)
     {
         if (stations.Length == 0 || newIndex == currentStation) return;
@@ -108,15 +112,49 @@ public class RadioController : MonoBehaviour
 
     private void PlayCurrentStation()
     {
-        if (stations.Length == 0 || stations[currentStation].clip == null)
+        if (stations.Length == 0) return;
+
+        AudioClip clip = PickClip(stations[currentStation]);
+
+        if (clip == null)
         {
             audioSource.Stop();
             return;
         }
 
-        audioSource.clip = stations[currentStation].clip;
-        audioSource.loop = true;
+        audioSource.clip = clip;
+        audioSource.loop = false;
         audioSource.Play();
+    }
+
+    private bool HasClips(RadioStation station)
+    {
+        return station.clips != null && station.clips.Length > 0;
+    }
+
+    private AudioClip PickClip(RadioStation station)
+    {
+        if (!HasClips(station)) return null;
+
+        int count = station.clips.Length;
+        int index;
+
+        if (count == 1)
+        {
+            index = 0;
+        } 
+        else if( shuffle) 
+        {
+            do { index = Random.Range(0, count); }
+            while (index == station.lastIndex);
+        }
+        else
+        {
+            index = (station.lastIndex + 1) % count;
+        }
+
+        station.lastIndex = index;
+        return station.clips[index];
     }
 
     private AudioClip GenerateNoise()

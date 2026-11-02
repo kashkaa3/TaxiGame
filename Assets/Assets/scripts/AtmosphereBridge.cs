@@ -121,7 +121,7 @@ public class AtmosphereBridge : MonoBehaviour
         if (debugLog) Debug.Log("Bridge -> mood: '" + mood + "'");
     }
 
-    string GetCurrentSongId()
+    public string GetCurrentSongId()
     {
         if (!radio.IsOn) return ""; // radio off
         if (radio.Signal < minSignal) return ""; // too much static
@@ -137,7 +137,7 @@ public class AtmosphereBridge : MonoBehaviour
         return "station" + index; 
     }
 
-    string GetMoodId()
+    public string GetMoodId()
     {
         switch (lights.CurrentBlend)
         {

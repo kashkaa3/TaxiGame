@@ -23,11 +23,11 @@ public class CameraMovement : MonoBehaviour
             return;
         }
 
-        camRotationY += Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
+        camRotationY += Input.GetAxis("Mouse X") * mouseSensitivity * GameSettings.Sensitivity * Time.deltaTime;
         camRotationY = Mathf.Clamp(camRotationY, -maxLookX/1.5f, maxLookX);
-        camRotationX -= Input.GetAxis("Mouse Y") * mouseSensitivity * Time.deltaTime;
+        camRotationX -= Input.GetAxis("Mouse Y") * mouseSensitivity * GameSettings.Sensitivity * Time.deltaTime;
         camRotationX = Mathf.Clamp(camRotationX, -maxLookY/2f, maxLookY);
-        transform.localRotation = Quaternion.Euler(camRotationX, camRotationY+180, 0f);
+        transform.localRotation = Quaternion.Euler(camRotationX, camRotationY, 0f);
     }
 }
 

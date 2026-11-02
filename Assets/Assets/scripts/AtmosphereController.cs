@@ -3,9 +3,11 @@ using System.Collections.Generic;
 
 public class AtmosphereController : MonoBehaviour
 {
-    public float timeLimit = 15f; // Time limit for the player to input the combo
+    public float timeLimit = 23f; // Time limit for the player to input the combo
     public bool isInputActive = false; // Flag to check if input is active
     public float timeLeft;
+
+    public bool noTimeLimit = false; // if true then timer never runs out 
 
     public AtmosphereResult lastResult = new AtmosphereResult(); // Store the last result of the combo check
 
@@ -74,15 +76,17 @@ public class AtmosphereController : MonoBehaviour
     void Update()
     {
         if (!isInputActive) return;
+        if (noTimeLimit) return; // If no time limit is set, skip the timer countdown
 
         timeLeft -= Time.deltaTime;
-        if (timeLeft <= 0)
-        {
-            isInputActive = false;
-            lastResult = GetCurrentResult();
-            Debug.Log("Finished: " + lastResult.level + ", combo " + lastResult.comboIndex +
-                " | moodCorrect: " + lastResult.moodCorrect + ", songCorrect: " + lastResult.songCorrect);
-        }
+        if (timeLeft <= 0) Finish(); // Call Finish() when time runs out
+    }
 
+    public void Finish()
+    {
+        isInputActive = false;
+        lastResult = GetCurrentResult();
+        Debug.Log("Finished: " + lastResult.level + ", combo " + lastResult.comboIndex +
+            " | moodCorrect: " + lastResult.moodCorrect + ", songCorrect: " + lastResult.songCorrect);
     }
 }

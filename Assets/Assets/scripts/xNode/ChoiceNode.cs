@@ -8,6 +8,7 @@ public struct ComboEntry
     public string song;
     public string mood;
     public int points;
+
 }
 
 public class ChoiceNode : BaseNode
@@ -16,6 +17,9 @@ public class ChoiceNode : BaseNode
 
     [Output(dynamicPortList = true)] public List<ComboEntry> combos;
     [Output(backingValue = ShowBackingValue.Never)] public EmptyStruct wrong;
+
+    public bool noTimeLimit = false;
+    public float holdTime = 3f;
 
     // converts the list in the node into Combo objects for AtmosphereController
     public List<Combo> GetCombos()
