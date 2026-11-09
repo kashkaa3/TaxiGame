@@ -18,6 +18,8 @@ public class CursorSystem : MonoBehaviour
 
     private void Update()
     {
+        if (PauseMenu.GameIsPaused) return;
+
         //Set the cursor to be locked and invisible
         Cursor.lockState = CursorLockMode.Locked; 
         Cursor.visible = false;

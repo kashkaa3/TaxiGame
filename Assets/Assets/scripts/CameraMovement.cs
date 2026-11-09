@@ -19,6 +19,8 @@ public class CameraMovement : MonoBehaviour
     }
     void Update()
     {
+        if (PauseMenu.GameIsPaused) return;
+
         if (cursorV.inUIMode) { // Check if the player is in UI mode
             return;
         }

@@ -36,7 +36,7 @@ public class CigaretteInteraction : MonoBehaviour
     {
         warningText.text = message;
         warningText.gameObject.SetActive(true);
-        yield return new WaitForSeconds(3f);//WaitForSecondsRealtime use when world stops
+        yield return new WaitForSeconds(5f);//WaitForSecondsRealtime use when world stops
         warningText.gameObject.SetActive(false);
     }
 

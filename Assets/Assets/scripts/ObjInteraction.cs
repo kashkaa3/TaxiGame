@@ -25,6 +25,8 @@ public class ObjInteraction : MonoBehaviour
     }
     void Update()
     {
+        if (PauseMenu.GameIsPaused) return;
+
         if (cursorV.inUIMode) // Check if the player is in UI mode, and if so, skip interaction logic
         {
             return;

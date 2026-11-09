@@ -1,0 +1,500 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: DialogueLoc Shared Data
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.SharedTableData
+  m_TableCollectionName: DialogueLoc
+  m_TableCollectionNameGuidString: 642070058e751ba448ff8e623a79c71b
+  m_Entries:
+  - m_Id: 57487491264512
+    m_Key: graphPassenger1_001
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487591927808
+    m_Key: Name_O.A.R.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122112
+    m_Key: graphPassenger1_002
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122113
+    m_Key: graphPassenger1_003
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122114
+    m_Key: graphPassenger1_004
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122115
+    m_Key: graphPassenger1_005
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122116
+    m_Key: graphPassenger1_006
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122117
+    m_Key: graphPassenger1_007
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122118
+    m_Key: graphPassenger1_008
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122119
+    m_Key: Name_Vanessa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122120
+    m_Key: graphPassenger1_009
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122121
+    m_Key: graphPassenger1_010
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122122
+    m_Key: graphPassenger1_011
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122123
+    m_Key: graphPassenger1_012
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122124
+    m_Key: graphPassenger1_013
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122125
+    m_Key: graphPassenger1_014
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122126
+    m_Key: graphPassenger1_015
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122127
+    m_Key: graphPassenger1_016
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122128
+    m_Key: graphPassenger1_017
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122129
+    m_Key: graphPassenger1_018
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122130
+    m_Key: graphPassenger1_019
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122131
+    m_Key: graphPassenger1_020
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122132
+    m_Key: graphPassenger1_021
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122133
+    m_Key: graphPassenger1_022
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122134
+    m_Key: graphPassenger1_023
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122135
+    m_Key: graphPassenger1_024
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122136
+    m_Key: graphPassenger1_025
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122137
+    m_Key: graphPassenger1_026
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122138
+    m_Key: graphPassenger1_027
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122139
+    m_Key: graphPassenger1_028
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122140
+    m_Key: graphPassenger1_029
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122141
+    m_Key: graphPassenger1_030
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122142
+    m_Key: graphPassenger1_031
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122143
+    m_Key: graphPassenger1_032
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122144
+    m_Key: graphPassenger1_033
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122145
+    m_Key: graphPassenger1_034
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122146
+    m_Key: graphPassenger1_035
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122147
+    m_Key: graphPassenger1_036
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122148
+    m_Key: graphPassenger1_037
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122149
+    m_Key: graphPassenger1_038
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122150
+    m_Key: graphPassenger1_039
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122151
+    m_Key: graphPassenger1_040
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122152
+    m_Key: graphPassenger1_041
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122153
+    m_Key: graphPassenger1_042
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122154
+    m_Key: graphPassenger1_043
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122155
+    m_Key: graphPassenger1_044
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122156
+    m_Key: graphPassenger1_045
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122157
+    m_Key: graphPassenger1_046
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122158
+    m_Key: graphPassenger1_047
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122159
+    m_Key: graphPassenger1_048
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122160
+    m_Key: graphPassenger1_049
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122161
+    m_Key: graphPassenger1_050
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122162
+    m_Key: graphPassenger1_051
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122163
+    m_Key: graphPassenger1_052
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122164
+    m_Key: graphPassenger1_053
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122165
+    m_Key: graphPassenger1_054
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122166
+    m_Key: graphPassenger1_055
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122167
+    m_Key: graphPassenger1_056
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122168
+    m_Key: graphPassenger1_057
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122169
+    m_Key: graphPassenger1_058
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122170
+    m_Key: graphPassenger1_059
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122171
+    m_Key: graphPassenger1_060
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122172
+    m_Key: graphPassenger1_061
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122173
+    m_Key: graphPassenger1_062
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122174
+    m_Key: graphPassenger1_063
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122175
+    m_Key: graphPassenger1_064
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122176
+    m_Key: graphPassenger1_065
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122177
+    m_Key: graphPassenger1_066
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122178
+    m_Key: graphPassenger1_067
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122179
+    m_Key: graphPassenger1_068
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122180
+    m_Key: graphPassenger1_069
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122181
+    m_Key: graphPassenger1_070
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122182
+    m_Key: graphPassenger1_071
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122183
+    m_Key: graphPassenger1_072
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122184
+    m_Key: graphPassenger1_073
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122185
+    m_Key: graphPassenger1_074
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122186
+    m_Key: graphPassenger1_075
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122187
+    m_Key: graphPassenger1_076
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122188
+    m_Key: graphPassenger1_077
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122189
+    m_Key: graphPassenger1_078
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122190
+    m_Key: graphPassenger1_079
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122191
+    m_Key: graphPassenger1_080
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122192
+    m_Key: graphPassenger1_081
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122193
+    m_Key: graphPassenger1_082
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122194
+    m_Key: graphPassenger1_083
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122195
+    m_Key: graphPassenger1_084
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122196
+    m_Key: graphPassenger1_085
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122197
+    m_Key: graphPassenger1_086
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122198
+    m_Key: graphPassenger1_087
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122199
+    m_Key: graphPassenger1_088
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122200
+    m_Key: graphPassenger1_089
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122201
+    m_Key: graphPassenger1_090
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122202
+    m_Key: graphPassenger1_091
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122203
+    m_Key: graphPassenger1_092
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122204
+    m_Key: graphPassenger1_093
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122205
+    m_Key: graphPassenger1_094
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122206
+    m_Key: graphPassenger1_095
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122207
+    m_Key: graphPassenger1_096
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122208
+    m_Key: graphPassenger1_097
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122209
+    m_Key: graphPassenger1_098
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122210
+    m_Key: graphPassenger1_099
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122211
+    m_Key: graphPassenger1_100
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122212
+    m_Key: graphPassenger1_101
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122213
+    m_Key: graphPassenger1_102
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122214
+    m_Key: graphPassenger1_103
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122215
+    m_Key: graphPassenger1_104
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122216
+    m_Key: graphPassenger1_105
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122217
+    m_Key: graphPassenger1_106
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122218
+    m_Key: graphPassenger1_107
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122219
+    m_Key: graphPassenger1_108
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122220
+    m_Key: graphPassenger1_109
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122221
+    m_Key: graphPassenger1_110
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122222
+    m_Key: graphPassenger1_111
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122223
+    m_Key: graphPassenger1_112
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122224
+    m_Key: graphPassenger1_113
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122225
+    m_Key: graphPassenger1_114
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122226
+    m_Key: graphPassenger1_115
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122227
+    m_Key: graphPassenger1_116
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 5949460926949490899
+  references:
+    version: 2
+    RefIds:
+    - rid: 5949460926949490899
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1794208169394

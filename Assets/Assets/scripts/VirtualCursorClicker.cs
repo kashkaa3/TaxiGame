@@ -9,6 +9,8 @@ public class VirtualCursorClicker : MonoBehaviour
 
     void Update()
     {
+        if (PauseMenu.GameIsPaused) return;
+
         bool canClick = cursorSystem.inUIMode && wasInUIModeLastFrame;
         wasInUIModeLastFrame = cursorSystem.inUIMode;
 

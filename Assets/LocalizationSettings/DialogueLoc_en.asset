@@ -1,0 +1,656 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: DialogueLoc_en
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.StringTable
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 642070058e751ba448ff8e623a79c71b, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 57487491264512
+    m_Localized: Good evening, thank you for choosing to work for "STYXYZ" transportation
+      company.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487591927808
+    m_Localized: O.A.R.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122112
+    m_Localized: I see that it's your first day at work! I'm your AI assistant O.A.R.
+      and I'm gonna help you do the job to its fullest potential.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122113
+    m_Localized: As you might be aware, in "STYXYZ" we not only care for our passengers
+      safe drive to their destination.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122114
+    m_Localized: But we also try to make the passenger as comfortable as possible!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122115
+    m_Localized: For that you will need to create a correct atmosphere, depending
+      on how they feel.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122116
+    m_Localized: Oh, I think your first customer is about to arrive!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122117
+    m_Localized: Okay, act natural, and try to listen to them, to better understand
+      how they feel, good luck.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122118
+    m_Localized: Good evening...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122119
+    m_Localized: Vanessa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122120
+    m_Localized: ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122121
+    m_Localized: Deep talk you two are having I see... Well, of course, you have
+      not created any mood for our lovely passenger yet!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122122
+    m_Localized: 'For that, a couple of things need to be done.
+
+      Firstly let''s
+      turn on the radio.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122123
+    m_Localized: To do that you just have to look at it hard enough!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122124
+    m_Localized: After, try to find something relaxing. Our passenger looks like
+      she is in some kind of distress...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122125
+    m_Localized: 'To change the station, the only thing you need to do is rotate
+      the dial!
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122126
+    m_Localized: 'Nice! This should work just fine.
+
+      Okay, another thing that
+      we need to do, is to set up a correct light.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122127
+    m_Localized: You can find the controller for the car light on the top, near the
+      rearview mirror.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122128
+    m_Localized: To make the lights blue, just click on the blue button a bunch of
+      times, it's that simple!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122129
+    m_Localized: I like the color blue a lot, and I think our passenger will like
+      it as well!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122130
+    m_Localized: Colors can also be combined, but for now let's stick to the simple
+      stuff.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122131
+    m_Localized: 'Amazing, you''re a natural at this!
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122132
+    m_Localized: 'To know if the atmospehere you''re creating is suiatable for the
+      passenger, you can always rely on the SYNCHRONIZER.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122133
+    m_Localized: 'It will tell you how close you are to make the passenger open up
+      to you.
+
+      I know it might be hard at first, but you got this!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122134
+    m_Localized: 'The more your passenger will speak up about themselves, the better
+      their review about you will be!
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122135
+    m_Localized: Also, one last thing. The first atmosphere that comes to your mind,
+      might not always be the best.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122136
+    m_Localized: Think of yourself as a psychologist in a sense!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122137
+    m_Localized: But do it enough times, and they might be overwhelmed, and will
+      not want to continue their talk.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122138
+    m_Localized: 'I think the passenger is about to open up!
+
+      Okay, good luck!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122139
+    m_Localized: Some passengers open up only if you push them towards a specific
+      emotion.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122140
+    m_Localized: Do you like your job?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122141
+    m_Localized: Sorry, that came out weird. I just don't get how you can be okay
+      with random people getting in your car every day.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122142
+    m_Localized: Drunk jerks you have to clean up after.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122143
+    m_Localized: Talking to strangers, trying not to be rude just so they don't leave
+      you a bad review.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122144
+    m_Localized: I could never handle that many small talks in a day.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122145
+    m_Localized: ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122146
+    m_Localized: 'Good job! I hope you figured out how the SYNCHRONIZER works.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122147
+    m_Localized: 'Be carefull next time though, people usually can wait for around
+      23 seconds before they lose their thought.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122148
+    m_Localized: So if you're not gonna be able to find the right atmosphere for
+      them, they will not bother continuing.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122149
+    m_Localized: 'Okay, sorry. Time to work!
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122150
+    m_Localized: 'Good job! I hope you figured out how the SYNCHRONIZER works.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122151
+    m_Localized: 'Be carefull next time though, people usually can wait for around
+      23 seconds before they lose their thought.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122152
+    m_Localized: So if you're not gonna be able to find the right atmosphere for
+      them, they will not bother continuing.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122153
+    m_Localized: 'Okay, sorry. Time to work!
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122154
+    m_Localized: 'Actually... maybe that''s not fair to them.
+
+      It more of a
+      "me" problem than those people problem.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122155
+    m_Localized: Every time someone talks to me, I'm already grading myself.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122156
+    m_Localized: What I said. How I said it. Whether my face did something weird.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122157
+    m_Localized: By the end I've given myself, like, a two out of ten. Every time.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122158
+    m_Localized: So I just don't bother talking. No review is better than a bad one,
+      right?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122159
+    m_Localized: I'm honestly surprised I even iniated this talk with you.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122160
+    m_Localized: One...friend...told me that being around me is exhausting because
+      of this.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122161
+    m_Localized: He was probably right. He usually was.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122162
+    m_Localized: ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122163
+    m_Localized: 'You know what? No. Why am I always the exhausting one?
+
+
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122164
+    m_Localized: 'How...
+
+      ...Nevermind, it''s a stupid question.
+
+      ...'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122165
+    m_Localized: My "parents" are never home. Never.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122166
+    m_Localized: And when they are, it's "why do you look so tired, you didn't even
+      do anything today.".
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122167
+    m_Localized: I look tired because I raised your kid for you!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122168
+    m_Localized: And even then you don't even care in slightest about how I feel,
+      because I am never enough for them!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122169
+    m_Localized: 'UGH...
+
+      ...Sorry. I don''t usually yell in taxis.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122170
+    m_Localized: '...Sorry. I don''t usually yell in taxis.
+
+      It''s just a lot
+      of stuff is in my head right now.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122171
+    m_Localized: ...Me and that friend I was talking about broke up today. And...
+      I don't know, nothing makes sense anymore without him.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122172
+    m_Localized: '...
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122173
+    m_Localized: 'I just, don''t know where to go from here.
+
+      That friend I
+      was talking about...'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122174
+    m_Localized: 'We broke up today.
+
+      And I don''t know how to feel about it.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122175
+    m_Localized: If I knew beforehand that this would happened, maybe at least I
+      could prepare myself better.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122176
+    m_Localized: But it all came so suddently... We were just going to the cinema
+      the other day, and now, can I even talk to him?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122177
+    m_Localized: 'Because if that''s the case...
+
+      ...Guess we''ll see.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122178
+    m_Localized: ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122179
+    m_Localized: 'Jezz... I hope I didn''t say too much.
+
+      Judging by your reaction
+      you don''t mind me though.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122180
+    m_Localized: 'But still, sorry for trauma dumping.
+
+      I really shouldn''t
+      be telling this much to a stranger.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122181
+    m_Localized: 'But I guess you know about me more than some of my "friends".
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122182
+    m_Localized: 'Egh...
+
+      Anyways, what has been said, was said.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122183
+    m_Localized: 'For some reason I do not mind sharing this with you.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122184
+    m_Localized: 'Oh, is it my stop already?
+
+      Thank you for the ride, and please,
+      if you can. Can you keep what I said between us?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122185
+    m_Localized: I'll leave a good review, I know you care about those!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122186
+    m_Localized: Please, can you keep what I said between us. I am not comfortable
+      with others knowing about this...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122187
+    m_Localized: ...Thank you for the ride.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122188
+    m_Localized: 'Maybe if I''d just said what I wanted, for once...
+
+      No. That''s...
+      just makes it worse.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122189
+    m_Localized: 'Oh, is this my stop?
+
+      I don''t really... uh... nothing.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122190
+    m_Localized: Thanks. I will leave a review, I guess. That's how it works, right?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122191
+    m_Localized: Actually, thinking about it. Maybe it's not as bad as I described
+      it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122192
+    m_Localized: It's kind of like grabbing a random book off a library shelf, right?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122193
+    m_Localized: You don't search for it. You don't even read the back. You just
+      open it, and someone's whole life is in there.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122194
+    m_Localized: A drunk jerk on page one. Maybe something beautiful on page forty.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122195
+    m_Localized: 'I''d probably be one of those books nobody finishes.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122196
+    m_Localized: Ha. Sorry. That was a three out of ten joke.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122197
+    m_Localized: '...
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122198
+    m_Localized: 'I should buy new books to read.
+
+      Or to collect dust, like
+      most of the time.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122199
+    m_Localized: 'Honestly? I think I''m scared of being read.
+
+      I know that
+      it''s not only me who has stupid thoughts about other people.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122200
+    m_Localized: But someone reading those thoughts, even thinking about it already
+      makes me feel uneasy...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122201
+    m_Localized: 'My little sister wouldn''t care that much about this.
+
+      She
+      talks to everyone. Bus drivers. Cashiers. The neighbor''s dog.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122202
+    m_Localized: 'She seems to be making friends every miniute.
+
+      I don''t know
+      from where she got that.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122203
+    m_Localized: Even though I was the one who taught her to read. Me and her seem
+      to be total opposites
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122204
+    m_Localized: Funny. I gave her all of my books and didn't keep any for myself.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122205
+    m_Localized: '...it is not an analogy for reading the random books.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122206
+    m_Localized: ...at least I think it isn't...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122207
+    m_Localized: Saying all of this out loud makes me sound like I'm jelous of her.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122208
+    m_Localized: 'Maybe it''s kinda true. Ha. Don''t tell her.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122209
+    m_Localized: ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122210
+    m_Localized: 'Although there was a person who did read me to the end.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122211
+    m_Localized: 'He did not like the ending... But I hope at least he enjoyed the
+      start.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122212
+    m_Localized: I'm talking about my boyf...ex-boyfriend... now. Damn, it feels
+      so bad to say it like that.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122213
+    m_Localized: Like, he could understand me, you know? He didn't label me as anything,
+      or pushed me too hard to change myself.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122214
+    m_Localized: 'I appreciate him for that.
+
+      A lot...'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122215
+    m_Localized: Even though he is the one who initiated the breakup. I can't bring
+      myself to blame him still.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122216
+    m_Localized: '...
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122217
+    m_Localized: 'It''s funny how I ended up talking about all of this just because
+      I don''t like smelly people in cars.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122218
+    m_Localized: 'Well, anyways.
+
+      I think we are close to my stop.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122219
+    m_Localized: 'Thank you for the ride, and goodbye.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122220
+    m_Localized: Thank you for listening to me... I am surprised I was able to get
+      this off my chest so easily.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122221
+    m_Localized: I didn't think that a taxi drive would turn into a therapy session,
+      but I guess we are here now.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122222
+    m_Localized: 'I would also like to listen to you talk even a bit you know, haha.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122223
+    m_Localized: But it's okay, maybe next time if you're still gonna be working
+      here.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122224
+    m_Localized: 'Either way, I believe we are close to my stop.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122225
+    m_Localized: Thank you again, have a good rest of the night.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122226
+    m_Localized: To interact with objects you can press "E" on keyboard or LMB.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57487596122227
+    m_Localized: To stop interacting with objects press "Q" on keyboard or RMB.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

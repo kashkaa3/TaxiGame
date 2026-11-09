@@ -59,8 +59,8 @@ public class RadioController : MonoBehaviour
         float targetMaster = isOn ? 1f : 0f;
         master = Mathf.MoveTowards(master, targetMaster, powerFadeSpeed * Time.deltaTime);
 
-        audioSource.volume = musicVolume * musicVolume * signal * master;
-        noiseSource.volume = noiseVolume * musicVolume * (1f - signal) * master;
+        audioSource.volume = musicVolume * GameSettings.MusicVolume * signal * master;
+        noiseSource.volume = noiseVolume * GameSettings.MusicVolume * (1f - signal) * master;
     }
 
 

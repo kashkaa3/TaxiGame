@@ -13,6 +13,7 @@ public class DialogueManager : MonoBehaviour
 
     [Header ("Typing")]
     public float typingSpeed = 0.1f; // Time in seconds between each character being typed
+    public float koreanTypingSpeed = 1.8f; // Time in seconds between each Korean character being typed
 
     [Header("State")]
     public bool isTalking = false; // makes character open mouth while text is being typed
@@ -26,6 +27,7 @@ public class DialogueManager : MonoBehaviour
     bool skipPressed = false; // Flag to check if the skip button has been pressed
 
     BaseNode nextNode;
+    string lastPassenger= "";
 
     void Awake()
     {
@@ -51,6 +53,7 @@ public class DialogueManager : MonoBehaviour
     public void StartDialogue(DialogueGraph graph)
     {
         Debug.Log("Starting Dialogue");
+        lastPassenger = "";
         dialoguePanel.SetActive(true); // Show the dialogue panel
         StopAllCoroutines(); //stops old dialogue if one is already running
         StartCoroutine(PlayGraph(graph));
@@ -151,30 +154,61 @@ public class DialogueManager : MonoBehaviour
 
     IEnumerator TypeLine(DialogueNode line)
     {
-        characterName.text = line.passengerName; // Update the character name text in the UI
+        string passengerID = string.IsNullOrEmpty(line.passengerName) ? lastPassenger : line.passengerName; // Default to "Narrator" if passenger name is empty
 
-        if (characterImage != null && line.sprite != null) //change picture only if node has one
+        string text = line.dialogLine; // Default to the original dialogue line
+        string passenger = passengerID; // Default to the original passenger name
+
+        if (!string.IsNullOrEmpty(line.lineKey)) // Check if a localization key is provided
         {
-            characterImage.sprite = line.sprite; // Update the character image in the UI
+            var lineOp = DialogueLoc.Get(line.lineKey); 
+            yield return lineOp; 
+            text = lineOp.Result; // Update the text with the localized dialogue line
+
+            if (!line.hideName && !string.IsNullOrEmpty(passengerID)) // Check if a localization key for the passenger name is provided
+            {
+                var nameOp = DialogueLoc.Get("Name_" + passengerID); // Get the localized passenger name using a specific key format
+                yield return nameOp;
+                passenger = nameOp.Result;
+            }
+        }
+
+        bool speakerChanged = !line.hideName && passengerID != lastPassenger;
+        if (!line.hideName) lastPassenger = passengerID; // Update the last passenger name only if it's not hidden
+
+        characterName.text = line.hideName ? "" : passenger;
+        if (characterImage != null)
+        {
+            characterImage.enabled = !line.hideSprite; // Show or hide the character image based on the hideSprite property
+            
+            if (!line.hideSprite && line.sprite != null) //change picture only if not hidden and sprite is not null
+            {
+                characterImage.sprite = line.sprite; // Update the character image in the UI
+            }
+        }
+
+        if (speakerChanged && PassengerUI.Instance != null)
+        {
+            PassengerUI.Instance.PlayEnter();
         }
 
         skipPressed = false; // Reset the skip button state at the start of typing a new line
         dialogueText.text = " ";
         isTalking = true; // Set isTalking to true when starting to type the line
-        foreach (char letter in line.dialogLine)
+        foreach (char letter in text)
         {
             if (skipPressed)
             {
-                dialogueText.text = line.dialogLine;
+                dialogueText.text = text;
                 skipPressed = false;
                 break;
             }
             dialogueText.text += letter;
-            yield return new WaitForSeconds(typingSpeed);
+            yield return new WaitForSeconds(letter >= 0xAC00 ? typingSpeed * koreanTypingSpeed : typingSpeed);
         }
         isTalking = false; // Set isTalking to false after the line has been fully typed
         
-        float waitTime = ReadingTime(line.dialogLine); // Calculate the time to wait based on the length of the dialogue line
+        float waitTime = ReadingTime(text); // Calculate the time to wait based on the length of the dialogue line
         float timer = 0f;
         while (timer < waitTime && !skipPressed)
         {
@@ -186,8 +220,12 @@ public class DialogueManager : MonoBehaviour
 
     float ReadingTime(string text)
     {
-        int wordCount = text.Split(' ').Length; // Count the number of words in the text
-        return 1.5f + (wordCount * 0.18f); //base time + time per word
+        float time = 1.5f;
+        foreach (char c in text)
+        {
+            time += c >= 0xAC00 ? 0.07f : 0.035f; // Adjust reading time based on character type (Korean characters take longer)
+        }
+        return time;
     }
 
     IEnumerator RunTutorial (TutorialNode t)

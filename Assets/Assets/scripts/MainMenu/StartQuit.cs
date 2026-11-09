@@ -3,8 +3,20 @@ using UnityEngine.SceneManagement;
 
 public class StartQuit : MonoBehaviour
 {
+    void Start()
+    {
+        Time.timeScale = 1f;
+        Cursor.lockState = CursorLockMode.None; //unlock the cursor so it can be used in the main menu
+        Cursor.visible = true;
+    }
     public void Play()
     {
+        // Reset game settings to default values
+        GameSettings.MusicLevel = 100;
+        GameSettings.SoundLevel = 100;
+        GameSettings.SensLevel = 50;
+        GameSettings.Save();
+
         SceneManager.LoadScene("MainScene");
     }
     public void Quit()
@@ -14,7 +26,7 @@ public class StartQuit : MonoBehaviour
 
     public void LoadGame()
     {
-        SavingSystem savingSystem = FindObjectOfType<SavingSystem>();
+        SavingSystem savingSystem = FindFirstObjectByType<SavingSystem>();
         if (savingSystem != null)
         {
             savingSystem.LoadGame();

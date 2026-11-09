@@ -47,7 +47,10 @@ MonoBehaviour:
   dialogLine: 'Although there was a person who did read me to the end.
 
 '
+  lineKey: graphPassenger1_099
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &-8980973816660943336
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -93,7 +96,10 @@ MonoBehaviour:
       _dynamic: 0
   passengerName: Vanessa
   dialogLine: ...
+  lineKey: graphPassenger1_034
   sprite: {fileID: 0}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &-8802272892364813015
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -139,7 +145,10 @@ MonoBehaviour:
       _dynamic: 0
   passengerName: Vanessa
   dialogLine: I'm honestly surprised I even iniated this talk with you.
+  lineKey: graphPassenger1_048
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &-8677470211668015969
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -187,7 +196,10 @@ MonoBehaviour:
   dialogLine: 'But I guess you know about me more than some of my "friends".
 
 '
+  lineKey: graphPassenger1_070
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &-8205098944756534281
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -233,7 +245,10 @@ MonoBehaviour:
       _dynamic: 0
   passengerName: Vanessa
   dialogLine: But it's okay, maybe next time if you're still gonna be working here.
+  lineKey: graphPassenger1_112
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &-8157876037746264335
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -278,7 +293,10 @@ MonoBehaviour:
   dialogLine: 'Thank you for the ride, and goodbye.
 
 '
+  lineKey: graphPassenger1_108
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &-8090852982550635965
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -327,7 +345,10 @@ MonoBehaviour:
 
     She talks
     to everyone. Bus drivers. Cashiers. The neighbor''s dog.'
+  lineKey: graphPassenger1_090
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &-8000978665381956651
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -374,7 +395,10 @@ MonoBehaviour:
   passengerName: Vanessa
   dialogLine: Thank you for listening to me... I am surprised I was able to get this
     off my chest so easily.
+  lineKey: graphPassenger1_109
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &-7948797682742273604
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -420,7 +444,10 @@ MonoBehaviour:
       _dynamic: 0
   passengerName: Vanessa
   dialogLine: He was probably right. He usually was.
+  lineKey: graphPassenger1_050
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &-7832189783837686797
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -463,7 +490,10 @@ MonoBehaviour:
       _dynamic: 0
   passengerName: Vanessa
   dialogLine: Thanks. I will leave a review, I guess. That's how it works, right?
+  lineKey: graphPassenger1_079
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &-7782976649353570344
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -510,7 +540,10 @@ MonoBehaviour:
   passengerName: Vanessa
   dialogLine: Even though I was the one who taught her to read. Me and her seem to
     be total opposites
+  lineKey: graphPassenger1_092
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &-7557478560406415669
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -559,7 +592,10 @@ MonoBehaviour:
     you can always rely on the SYNCHRONIZER.
 
 '
+  lineKey: graphPassenger1_021
   sprite: {fileID: 0}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &-7463567140625886558
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -603,9 +639,12 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  passengerName: O.A.R.
+  passengerName: 
   dialogLine: But we also try to make the passenger as comfortable as possible!
+  lineKey: graphPassenger1_004
   sprite: {fileID: 0}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &-7441179301376246507
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -654,7 +693,10 @@ MonoBehaviour:
 
     No. That''s...
     just makes it worse.'
+  lineKey: graphPassenger1_077
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &-7426931886560165038
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -702,7 +744,10 @@ MonoBehaviour:
   dialogLine: 'For some reason I do not mind sharing this with you.
 
 '
+  lineKey: graphPassenger1_072
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &-7391627430175953332
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -750,7 +795,10 @@ MonoBehaviour:
   dialogLine: 'Good job! I hope you figured out how the SYNCHRONIZER works.
 
 '
+  lineKey: graphPassenger1_039
   sprite: {fileID: 21300000, guid: 4cdc2871a705e8a489187c66c10b3c44, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &-7328028795512005373
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -797,7 +845,10 @@ MonoBehaviour:
   passengerName: Vanessa
   dialogLine: One...friend...told me that being around me is exhausting because of
     this.
+  lineKey: graphPassenger1_049
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &-7224299358324798051
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -844,7 +895,10 @@ MonoBehaviour:
   passengerName: O.A.R.
   dialogLine: To make the lights blue, just click on the blue button a bunch of times,
     it's that simple!
+  lineKey: graphPassenger1_017
   sprite: {fileID: 0}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &-7159148745660863252
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -892,7 +946,10 @@ MonoBehaviour:
   dialogLine: '...it is not an analogy for reading the random books.
 
 '
+  lineKey: graphPassenger1_094
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &-7045933891659506408
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -941,7 +998,10 @@ MonoBehaviour:
 
     That friend I was
     talking about...'
+  lineKey: graphPassenger1_062
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &-7012866436969453823
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -989,7 +1049,10 @@ MonoBehaviour:
   dialogLine: 'I think the passenger is about to open up!
 
     Okay, good luck!'
+  lineKey: graphPassenger1_027
   sprite: {fileID: 0}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &-6858785326508006783
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1032,7 +1095,10 @@ MonoBehaviour:
       _dynamic: 0
   passengerName: Vanessa
   dialogLine: ...Thank you for the ride.
+  lineKey: graphPassenger1_076
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &-6721134435007383818
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1078,7 +1144,10 @@ MonoBehaviour:
       _dynamic: 0
   passengerName: Vanessa
   dialogLine: Ha. Sorry. That was a three out of ten joke.
+  lineKey: graphPassenger1_085
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &-6631481780450857474
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1126,7 +1195,10 @@ MonoBehaviour:
   dialogLine: 'I would also like to listen to you talk even a bit you know, haha.
 
 '
+  lineKey: graphPassenger1_111
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &-6619519688242885609
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1174,7 +1246,10 @@ MonoBehaviour:
   dialogLine: 'Good job! I hope you figured out how the SYNCHRONIZER works.
 
 '
+  lineKey: graphPassenger1_035
   sprite: {fileID: 21300000, guid: 4cdc2871a705e8a489187c66c10b3c44, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &-6404425976608714943
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1220,7 +1295,10 @@ MonoBehaviour:
       _dynamic: 0
   passengerName: O.A.R.
   dialogLine: Think of yourself as a psychologist in a sense!
+  lineKey: graphPassenger1_025
   sprite: {fileID: 0}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &-6352986527798351551
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1258,15 +1336,18 @@ MonoBehaviour:
         PublicKeyToken=null
       connections:
       - fieldName: entry
-        node: {fileID: 7622025209174044883}
+        node: {fileID: 8618385113639616090}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  passengerName: O.A.R.
+  passengerName: 
   dialogLine: To do that you just have to look at it hard enough!
+  lineKey: graphPassenger1_012
   sprite: {fileID: 0}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &-5964740493455110146
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1311,13 +1392,12 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   passengerName: Vanessa
-  dialogLine: 'I''m talking about my boyf...
-
-    Ex-boyfriend... now.
-
-    Damn,
-    it feels so bad to say it like that.'
+  dialogLine: I'm talking about my boyf...ex-boyfriend... now. Damn, it feels so
+    bad to say it like that.
+  lineKey: graphPassenger1_101
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &-5775432972784685058
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1365,7 +1445,10 @@ MonoBehaviour:
   dialogLine: 'Okay, sorry. Time to work!
 
 '
+  lineKey: graphPassenger1_038
   sprite: {fileID: 0}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &-5707063175707677926
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1412,7 +1495,10 @@ MonoBehaviour:
   passengerName: O.A.R.
   dialogLine: But do it enough times, and they might be overwhelmed, and will not
     want to continue their talk.
+  lineKey: graphPassenger1_026
   sprite: {fileID: 0}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &-5634167132978682814
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1465,7 +1551,10 @@ MonoBehaviour:
     I don''t really... uh... nothing.
 
 '
+  lineKey: graphPassenger1_078
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &-5621262559219913792
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1512,7 +1601,10 @@ MonoBehaviour:
   passengerName: Vanessa
   dialogLine: But someone reading those thoughts, even thinking about it already
     makes me feel uneasy...
+  lineKey: graphPassenger1_089
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &-5295286956306615936
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1560,7 +1652,10 @@ MonoBehaviour:
   dialogLine: 'I appreciate him for that.
 
     A lot...'
+  lineKey: graphPassenger1_103
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &-4277678790515867013
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1607,7 +1702,10 @@ MonoBehaviour:
   passengerName: Vanessa
   dialogLine: Please, can you keep what I said between us. I am not comfortable with
     others knowing about this...
+  lineKey: graphPassenger1_075
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &-4121218142569712506
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1653,7 +1751,59 @@ MonoBehaviour:
       _dynamic: 0
   passengerName: Vanessa
   dialogLine: My "parents" are never home. Never.
+  lineKey: graphPassenger1_054
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
+--- !u!114 &-4109208074143997208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cd97fbdb4d7d744ab856c0b79a4f20b, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
+  graph: {fileID: 11400000}
+  position: {x: 1304, y: 56}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: -4109208074143997208}
+      _typeQualifiedName: EmptyStruct, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: exit
+        node: {fileID: 8618385113639616090}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: -4109208074143997208}
+      _typeQualifiedName: EmptyStruct, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: entry
+        node: {fileID: 7622025209174044883}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  passengerName: 
+  dialogLine: To stop interacting with objects press "Q" on keyboard or RMB.
+  lineKey: graphPassenger1_116
+  sprite: {fileID: 0}
+  hideSprite: 1
+  hideName: 1
 --- !u!114 &-3425669116342603621
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1743,9 +1893,12 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  passengerName: Vanessa
+  passengerName: 
   dialogLine: ...
+  lineKey: graphPassenger1_009
   sprite: {fileID: 0}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &-3106802121666468874
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1792,7 +1945,10 @@ MonoBehaviour:
   passengerName: Vanessa
   dialogLine: ...Me and that friend I was talking about broke up today. And... I
     don't know, nothing makes sense anymore without him.
+  lineKey: graphPassenger1_060
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &-3077211005456208381
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1839,7 +1995,10 @@ MonoBehaviour:
   passengerName: Vanessa
   dialogLine: Like, he could understand me, you know? He didn't label me as anything,
     or pushed me too hard to change myself.
+  lineKey: graphPassenger1_102
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &-3054098163079799156
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1887,7 +2046,10 @@ MonoBehaviour:
   dialogLine: 'He did not like the ending... But I hope at least he enjoyed the start.
 
 '
+  lineKey: graphPassenger1_100
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &-2860878924350165699
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1936,7 +2098,10 @@ MonoBehaviour:
     you.
 
     I know it might be hard at first, but you got this!'
+  lineKey: graphPassenger1_022
   sprite: {fileID: 0}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &-2631393820918191243
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1982,7 +2147,10 @@ MonoBehaviour:
       _dynamic: 0
   passengerName: Vanessa
   dialogLine: ...
+  lineKey: graphPassenger1_067
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &-2535820233418849495
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2028,7 +2196,10 @@ MonoBehaviour:
       _dynamic: 0
   passengerName: Vanessa
   dialogLine: Saying all of this out loud makes me sound like I'm jelous of her.
+  lineKey: graphPassenger1_096
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &-2077568246346883676
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2075,7 +2246,10 @@ MonoBehaviour:
   passengerName: Vanessa
   dialogLine: If I knew beforehand that this would happened, maybe at least I could
     prepare myself better.
+  lineKey: graphPassenger1_064
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &-2053713470757849838
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2124,7 +2298,10 @@ MonoBehaviour:
 
     Or to collect dust, like most
     of the time.'
+  lineKey: graphPassenger1_087
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &-1988846126109363161
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2168,10 +2345,13 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  passengerName: O.A.R.
+  passengerName: 
   dialogLine: Okay, act natural, and try to listen to them, to better understand
     how they feel, good luck.
+  lineKey: graphPassenger1_007
   sprite: {fileID: 0}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &-1581704859690446996
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2264,7 +2444,10 @@ MonoBehaviour:
   passengerName: O.A.R.
   dialogLine: I like the color blue a lot, and I think our passenger will like it
     as well!
+  lineKey: graphPassenger1_018
   sprite: {fileID: 0}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &-1165544058409873843
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2314,7 +2497,10 @@ MonoBehaviour:
     ...Nevermind, it''s a stupid question.
 
     ...'
+  lineKey: graphPassenger1_053
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &-955489404689800016
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2363,7 +2549,10 @@ MonoBehaviour:
 
     It''s just a lot of
     stuff is in my head right now.'
+  lineKey: graphPassenger1_059
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &-937323927779282823
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2412,7 +2601,10 @@ MonoBehaviour:
     their review about you will be!
 
 '
+  lineKey: graphPassenger1_023
   sprite: {fileID: 0}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &-725830513699050326
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2459,7 +2651,10 @@ MonoBehaviour:
   passengerName: O.A.R.
   dialogLine: Also, one last thing. The first atmosphere that comes to your mind,
     might not always be the best.
+  lineKey: graphPassenger1_024
   sprite: {fileID: 0}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &-595219005961803815
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2506,7 +2701,10 @@ MonoBehaviour:
   passengerName: Vanessa
   dialogLine: But it all came so suddently... We were just going to the cinema the
     other day, and now, can I even talk to him?
+  lineKey: graphPassenger1_065
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &-510027921174719869
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2553,7 +2751,10 @@ MonoBehaviour:
   passengerName: Vanessa
   dialogLine: And when they are, it's "why do you look so tired, you didn't even
     do anything today.".
+  lineKey: graphPassenger1_055
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &-454566703898172374
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2599,7 +2800,10 @@ MonoBehaviour:
       _dynamic: 0
   passengerName: Vanessa
   dialogLine: Drunk jerks you have to clean up after.
+  lineKey: graphPassenger1_031
   sprite: {fileID: 0}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &-403425770338826746
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2646,7 +2850,10 @@ MonoBehaviour:
   passengerName: O.A.R.
   dialogLine: So if you're not gonna be able to find the right atmosphere for them,
     they will not bother continuing.
+  lineKey: graphPassenger1_041
   sprite: {fileID: 0}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &-274900466662021789
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2694,7 +2901,10 @@ MonoBehaviour:
   dialogLine: 'We broke up today.
 
     And I don''t know how to feel about it.'
+  lineKey: graphPassenger1_063
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &-252401616956065522
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2740,7 +2950,10 @@ MonoBehaviour:
       _dynamic: 0
   passengerName: Vanessa
   dialogLine: What I said. How I said it. Whether my face did something weird.
+  lineKey: graphPassenger1_045
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &-228050567211047525
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2786,7 +2999,10 @@ MonoBehaviour:
       _dynamic: 0
   passengerName: Vanessa
   dialogLine: ...
+  lineKey: graphPassenger1_098
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2922,6 +3138,8 @@ MonoBehaviour:
   - {fileID: -8205098944756534281}
   - {fileID: 8528875244843310695}
   - {fileID: 8548816098558393704}
+  - {fileID: 8618385113639616090}
+  - {fileID: -4109208074143997208}
 --- !u!114 &264144818505741905
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2968,7 +3186,10 @@ MonoBehaviour:
   passengerName: Vanessa
   dialogLine: And even then you don't even care in slightest about how I feel, because
     I am never enough for them!
+  lineKey: graphPassenger1_057
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &573729339319105429
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3016,7 +3237,10 @@ MonoBehaviour:
   dialogLine: '...
 
 '
+  lineKey: graphPassenger1_086
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &710192606473850530
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3060,12 +3284,15 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  passengerName: O.A.R.
+  passengerName: 
   dialogLine: 'For that, a couple of things need to be done.
 
     Firstly let''s
     turn on the radio.'
+  lineKey: graphPassenger1_011
   sprite: {fileID: 0}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &805970370456554308
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3113,7 +3340,10 @@ MonoBehaviour:
   dialogLine: 'Okay, sorry. Time to work!
 
 '
+  lineKey: graphPassenger1_042
   sprite: {fileID: 0}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &847096560055246652
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3160,7 +3390,10 @@ MonoBehaviour:
   passengerName: O.A.R.
   dialogLine: Deep talk you two are having I see... Well, of course, you have not
     created any mood for our lovely passenger yet!
+  lineKey: graphPassenger1_010
   sprite: {fileID: 21300000, guid: 4cdc2871a705e8a489187c66c10b3c44, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &886628217671594556
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3207,7 +3440,10 @@ MonoBehaviour:
   passengerName: Vanessa
   dialogLine: You don't search for it. You don't even read the back. You just open
     it, and someone's whole life is in there.
+  lineKey: graphPassenger1_082
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &912002818827790642
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3250,7 +3486,10 @@ MonoBehaviour:
       _dynamic: 0
   passengerName: Vanessa
   dialogLine: I'll leave a good review, I know you care about those!
+  lineKey: graphPassenger1_074
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &1050689428256857801
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3298,7 +3537,10 @@ MonoBehaviour:
   dialogLine: 'Well, anyways.
 
     I think we are close to my stop.'
+  lineKey: graphPassenger1_107
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &1074935778811205728
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3346,7 +3588,10 @@ MonoBehaviour:
   dialogLine: 'UGH...
 
     ...Sorry. I don''t usually yell in taxis.'
+  lineKey: graphPassenger1_058
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &1296823203493444527
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3396,7 +3641,10 @@ MonoBehaviour:
 
 
 '
+  lineKey: graphPassenger1_052
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &1677999718142092036
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3475,7 +3723,10 @@ MonoBehaviour:
 
     Thank you for the ride, and please,
     if you can. Can you keep what I said between us?'
+  lineKey: graphPassenger1_073
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &2031073238101183960
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3522,7 +3773,10 @@ MonoBehaviour:
   passengerName: Vanessa
   dialogLine: Even though he is the one who initiated the breakup. I can't bring
     myself to blame him still.
+  lineKey: graphPassenger1_104
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &2048799715953575157
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3568,7 +3822,10 @@ MonoBehaviour:
       _dynamic: 0
   passengerName: Vanessa
   dialogLine: Good evening...
+  lineKey: graphPassenger1_008
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &2115529134171959992
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3614,7 +3871,10 @@ MonoBehaviour:
       _dynamic: 0
   passengerName: Vanessa
   dialogLine: A drunk jerk on page one. Maybe something beautiful on page forty.
+  lineKey: graphPassenger1_083
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &2233393951272217353
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3660,7 +3920,10 @@ MonoBehaviour:
       _dynamic: 0
   passengerName: Vanessa
   dialogLine: Funny. I gave her all of my books and didn't keep any for myself.
+  lineKey: graphPassenger1_093
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &2341702669690114430
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3709,7 +3972,10 @@ MonoBehaviour:
 
     It more of a "me"
     problem than those people problem.'
+  lineKey: graphPassenger1_043
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &2414427455477833435
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3842,10 +4108,13 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  passengerName: O.A.R.
+  passengerName: 
   dialogLine: As you might be aware, in "STYXYZ" we not only care for our passengers
     safe drive to their destination.
+  lineKey: graphPassenger1_003
   sprite: {fileID: 0}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &2651978687103624169
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3859,7 +4128,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 1368, y: 72}
+  position: {x: 1528, y: 280}
   ports:
     keys:
     - entry
@@ -3889,12 +4158,15 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  passengerName: O.A.R.
+  passengerName: 
   dialogLine: 'To change the station, the only thing you need to do is rotate the
     dial!
 
 '
+  lineKey: graphPassenger1_014
   sprite: {fileID: 0}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &2660115801332556135
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3940,7 +4212,10 @@ MonoBehaviour:
       _dynamic: 0
   passengerName: Vanessa
   dialogLine: I look tired because I raised your kid for you!
+  lineKey: graphPassenger1_056
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &2831756862908016863
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3990,7 +4265,10 @@ MonoBehaviour:
     ...Guess we''ll see.
 
 '
+  lineKey: graphPassenger1_066
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &3020464287169303858
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4037,7 +4315,10 @@ MonoBehaviour:
   passengerName: O.A.R.
   dialogLine: So if you're not gonna be able to find the right atmosphere for them,
     they will not bother continuing.
+  lineKey: graphPassenger1_037
   sprite: {fileID: 0}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &3145272850580168996
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4083,7 +4364,10 @@ MonoBehaviour:
       _dynamic: 0
   passengerName: Vanessa
   dialogLine: I could never handle that many small talks in a day.
+  lineKey: graphPassenger1_033
   sprite: {fileID: 0}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &3231720154487250955
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4127,9 +4411,12 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  passengerName: O.A.R.
+  passengerName: 
   dialogLine: Oh, I think your first customer is about to arrive!
+  lineKey: graphPassenger1_006
   sprite: {fileID: 0}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &3340116496687329708
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4178,7 +4465,10 @@ MonoBehaviour:
     seconds before they lose their thought.
 
 '
+  lineKey: graphPassenger1_040
   sprite: {fileID: 0}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &3373776165870898983
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4224,7 +4514,10 @@ MonoBehaviour:
       _dynamic: 0
   passengerName: Vanessa
   dialogLine: Do you like your job?
+  lineKey: graphPassenger1_029
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &3597134741881840982
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4272,7 +4565,10 @@ MonoBehaviour:
   dialogLine: 'Amazing, you''re a natural at this!
 
 '
+  lineKey: graphPassenger1_020
   sprite: {fileID: 21300000, guid: 4cdc2871a705e8a489187c66c10b3c44, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &3604837345872909908
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4320,7 +4616,10 @@ MonoBehaviour:
   dialogLine: 'Egh...
 
     Anyways, what has been said, was said.'
+  lineKey: graphPassenger1_071
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &3928815680583747396
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4366,7 +4665,10 @@ MonoBehaviour:
       _dynamic: 0
   passengerName: O.A.R.
   dialogLine: Some passengers open up only if you push them towards a specific emotion.
+  lineKey: graphPassenger1_028
   sprite: {fileID: 0}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &4223763474897350523
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4412,7 +4714,10 @@ MonoBehaviour:
       _dynamic: 0
   passengerName: Vanessa
   dialogLine: It's kind of like grabbing a random book off a library shelf, right?
+  lineKey: graphPassenger1_081
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &4288050138878556627
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4459,7 +4764,10 @@ MonoBehaviour:
   passengerName: Vanessa
   dialogLine: I didn't think that a taxi drive would turn into a therapy session,
     but I guess we are here now.
+  lineKey: graphPassenger1_110
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &4405094774415930470
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4505,7 +4813,10 @@ MonoBehaviour:
       _dynamic: 0
   passengerName: Vanessa
   dialogLine: ...
+  lineKey: graphPassenger1_051
   sprite: {fileID: 0}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &4534975905626651240
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4552,7 +4863,10 @@ MonoBehaviour:
   passengerName: Vanessa
   dialogLine: Talking to strangers, trying not to be rude just so they don't leave
     you a bad review.
+  lineKey: graphPassenger1_032
   sprite: {fileID: 0}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &4550063471257109681
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4600,7 +4914,10 @@ MonoBehaviour:
   dialogLine: '...
 
 '
+  lineKey: graphPassenger1_105
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &4753221800845628325
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4649,7 +4966,10 @@ MonoBehaviour:
 
     I don''t know from
     where she got that.'
+  lineKey: graphPassenger1_091
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &5116171739764085917
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4862,7 +5182,10 @@ MonoBehaviour:
   dialogLine: 'I''d probably be one of those books nobody finishes.
 
 '
+  lineKey: graphPassenger1_084
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &5434428809817894158
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4911,7 +5234,10 @@ MonoBehaviour:
 
     Judging by your reaction
     you don''t mind me though.'
+  lineKey: graphPassenger1_068
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &5467848043254426501
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4958,7 +5284,10 @@ MonoBehaviour:
   passengerName: O.A.R.
   dialogLine: Colors can also be combined, but for now let's stick to the simple
     stuff.
+  lineKey: graphPassenger1_019
   sprite: {fileID: 0}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &5528720510109131784
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5006,7 +5335,10 @@ MonoBehaviour:
   dialogLine: 'Maybe it''s kinda true. Ha. Don''t tell her.
 
 '
+  lineKey: graphPassenger1_097
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &6060042508934133967
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5050,10 +5382,13 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  passengerName: O.A.R.
+  passengerName: 
   dialogLine: I see that it's your first day at work! I'm your AI assistant O.A.R.
     and I'm gonna help you do the job to its fullest potential.
+  lineKey: graphPassenger1_002
   sprite: {fileID: 0}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &6250662947348313492
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5100,7 +5435,10 @@ MonoBehaviour:
   passengerName: O.A.R.
   dialogLine: You can find the controller for the car light on the top, near the
     rearview mirror.
+  lineKey: graphPassenger1_016
   sprite: {fileID: 0}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &6473748619604062782
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5149,7 +5487,10 @@ MonoBehaviour:
 
     Okay, another thing that we
     need to do, is to set up a correct light.'
+  lineKey: graphPassenger1_015
   sprite: {fileID: 21300000, guid: 4cdc2871a705e8a489187c66c10b3c44, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &6499640001507730196
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5198,7 +5539,10 @@ MonoBehaviour:
     I don''t like smelly people in cars.
 
 '
+  lineKey: graphPassenger1_106
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &7013095196610265009
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5242,10 +5586,13 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  passengerName: O.A.R.
+  passengerName: 
   dialogLine: For that you will need to create a correct atmosphere, depending on
     how they feel.
+  lineKey: graphPassenger1_005
   sprite: {fileID: 0}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &7133985350167840470
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5456,7 +5803,10 @@ MonoBehaviour:
     seconds before they lose their thought.
 
 '
+  lineKey: graphPassenger1_036
   sprite: {fileID: 0}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &7622025209174044883
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5470,7 +5820,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 1096, y: 56}
+  position: {x: 1528, y: 56}
   ports:
     keys:
     - entry
@@ -5482,7 +5832,7 @@ MonoBehaviour:
         PublicKeyToken=null
       connections:
       - fieldName: exit
-        node: {fileID: -6352986527798351551}
+        node: {fileID: -4109208074143997208}
         reroutePoints: []
       _direction: 0
       _connectionType: 0
@@ -5500,10 +5850,13 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  passengerName: O.A.R.
+  passengerName: 
   dialogLine: After, try to find something relaxing. Our passenger looks like she
     is in some kind of distress...
+  lineKey: graphPassenger1_013
   sprite: {fileID: 0}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &7684973067392197274
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5552,7 +5905,10 @@ MonoBehaviour:
 
     I know that it''s
     not only me who has stupid thoughts about other people.'
+  lineKey: graphPassenger1_088
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &7795051601702436799
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5599,7 +5955,10 @@ MonoBehaviour:
   passengerName: O.A.R.
   dialogLine: Good evening, thank you for choosing to work for "STYXYZ" transportation
     company.
+  lineKey: graphPassenger1_001
   sprite: {fileID: 21300000, guid: 4cdc2871a705e8a489187c66c10b3c44, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &7939427381207222717
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5647,7 +6006,10 @@ MonoBehaviour:
   dialogLine: '...
 
 '
+  lineKey: graphPassenger1_061
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &8070533937630879028
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5693,7 +6055,10 @@ MonoBehaviour:
       _dynamic: 0
   passengerName: Vanessa
   dialogLine: Every time someone talks to me, I'm already grading myself.
+  lineKey: graphPassenger1_044
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &8093708658900207115
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5739,7 +6104,10 @@ MonoBehaviour:
       _dynamic: 0
   passengerName: Vanessa
   dialogLine: Actually, thinking about it. Maybe it's not as bad as I described it.
+  lineKey: graphPassenger1_080
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &8098165377367722325
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5786,7 +6154,10 @@ MonoBehaviour:
   passengerName: Vanessa
   dialogLine: Sorry, that came out weird. I just don't get how you can be okay with
     random people getting in your car every day.
+  lineKey: graphPassenger1_030
   sprite: {fileID: 0}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &8528875244843310695
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5834,7 +6205,10 @@ MonoBehaviour:
   dialogLine: 'Either way, I believe we are close to my stop.
 
 '
+  lineKey: graphPassenger1_113
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &8548816098558393704
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5877,7 +6251,10 @@ MonoBehaviour:
       _dynamic: 0
   passengerName: Vanessa
   dialogLine: Thank you again, have a good rest of the night.
+  lineKey: graphPassenger1_114
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &8551923650740594582
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5923,7 +6300,59 @@ MonoBehaviour:
       _dynamic: 0
   passengerName: Vanessa
   dialogLine: ...at least I think it isn't...
+  lineKey: graphPassenger1_095
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
+--- !u!114 &8618385113639616090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cd97fbdb4d7d744ab856c0b79a4f20b, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
+  graph: {fileID: 11400000}
+  position: {x: 1080, y: 56}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: 8618385113639616090}
+      _typeQualifiedName: EmptyStruct, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: exit
+        node: {fileID: -6352986527798351551}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: 8618385113639616090}
+      _typeQualifiedName: EmptyStruct, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: entry
+        node: {fileID: -4109208074143997208}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  passengerName: 
+  dialogLine: To interact with objects you can press "E" on keyboard or LMB.
+  lineKey: graphPassenger1_115
+  sprite: {fileID: 0}
+  hideSprite: 1
+  hideName: 1
 --- !u!114 &8864584276757276871
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5970,7 +6399,10 @@ MonoBehaviour:
   passengerName: Vanessa
   dialogLine: So I just don't bother talking. No review is better than a bad one,
     right?
+  lineKey: graphPassenger1_047
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &8972434708231810004
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6016,7 +6448,10 @@ MonoBehaviour:
       _dynamic: 0
   passengerName: Vanessa
   dialogLine: By the end I've given myself, like, a two out of ten. Every time.
+  lineKey: graphPassenger1_046
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &9069549380955176167
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6065,4 +6500,7 @@ MonoBehaviour:
 
     I really shouldn''t be telling
     this much to a stranger.'
+  lineKey: graphPassenger1_069
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0

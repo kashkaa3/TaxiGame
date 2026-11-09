@@ -14,8 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainScene.unity
     guid: 1dbbb3dd21af6b64db9c305eddd7d7b8
-  - enabled: 1
-    path: Assets/Scenes/FriendScene.unity
-    guid: 5d0507ae44455a84fa927c9c88239321
   m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: bb5e0c1fe24fb144f9c156b450462c9f, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+    com.unity.localization.settings: {fileID: 11400000, guid: aaa77be87bda5e94d8cc7bb73b438096, type: 2}
