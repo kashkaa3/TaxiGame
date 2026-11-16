@@ -143,10 +143,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 57487596122134
-    m_Localized: 'The more your passenger will speak up about themselves, the better
+    m_Localized: The more your passenger will speak up about themselves, the better
       their review about you will be!
-
-'
     m_Metadata:
       m_Items: []
   - m_Id: 57487596122135
@@ -649,6 +647,16 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 57487596122227
     m_Localized: To stop interacting with objects press "Q" on keyboard or RMB.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 757112707674112
+    m_Localized: To see how colors and music work together, you can open notes I
+      left for you.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 757112787365888
+    m_Localized: "Notes are on the seat to your right.\nYou can open them any time
+      you\u2019re not sure how to answer."
     m_Metadata:
       m_Items: []
   references:

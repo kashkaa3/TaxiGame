@@ -50,7 +50,7 @@ public class ObjInteraction : MonoBehaviour
                     {
                         isFocused = true;
                         eyeIcon.sprite = eyeOpened;
-                        objName.text = hit.collider.gameObject.name; // Display the name of the interactable object
+                        objName.text = DialogueLoc.GetUItext("Obj_" + hit.collider.gameObject.name); // Display the name of the interactable object
 
                         Debug.Log("ready to interact with " + hit.collider.gameObject);
                     }

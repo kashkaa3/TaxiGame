@@ -20,6 +20,15 @@ public class CursorSystem : MonoBehaviour
     {
         if (PauseMenu.GameIsPaused) return;
 
+        if (EndScreen.IsShowing)
+        {
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+            mainCursor.SetActive(false);
+            virtualCursor.gameObject.SetActive(false);
+            return;
+        }
+
         //Set the cursor to be locked and invisible
         Cursor.lockState = CursorLockMode.Locked; 
         Cursor.visible = false;
@@ -41,7 +50,7 @@ public class CursorSystem : MonoBehaviour
     {
         // Get the mouse movement delta
         Vector2 delta = new Vector2(Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y"));
-        Vector2 pos = virtualCursor.anchoredPosition + delta * sensitivity * GameSettings.Sensitivity * Time.deltaTime; // Adjust the multiplier for sensitivity
+        Vector2 pos = virtualCursor.anchoredPosition + delta * sensitivity * GameSettings.Sensitivity; // Adjust the multiplier for sensitivity
 
         //Limit the virtual cursor to the bounds of the UI area
         float halfWidth = uiArea.rect.width / 2f;

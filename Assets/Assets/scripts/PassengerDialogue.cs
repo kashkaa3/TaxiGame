@@ -7,12 +7,20 @@ public class PassengerDialogue : MonoBehaviour
     [Header("Grapf for passenger")]
     public DialogueGraph[] passengerGraph;
 
+    public float dialogueDelay = 2f; // Delay before starting the dialogue
+
     DialogueManager dialogueManager; // Reference to the DialogueManager.cs
 
     void Start()
     {
         dialogueManager = FindAnyObjectByType<DialogueManager>(); // Find the DialogueManager in the scene
-        StartPassengerDialogue();
+        StartCoroutine(StartAfterDelay());
+    }
+
+    IEnumerator StartAfterDelay()
+    {
+        yield return new WaitForSeconds(dialogueDelay); // Wait for the specified delay
+        StartPassengerDialogue(); // Start the dialogue after the delay
     }
    
     public void StartPassengerDialogue()

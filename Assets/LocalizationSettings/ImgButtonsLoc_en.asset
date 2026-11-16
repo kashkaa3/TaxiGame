@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97269afb30aa84742ae3f3342603618a, type: 3}
+  m_Name: ImgButtonsLoc_en
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.AssetTable
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: a4da9dabd29c7984e87a94fd386fe52b, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 875607027712
+    m_Localized: d495dec63d78b184bb6900bb03c49874
+    m_Metadata:
+      m_Items: []
+  - m_Id: 894288457728
+    m_Localized: c531f6f5e064c7a408fd404d5531daf8
+    m_Metadata:
+      m_Items: []
+  - m_Id: 444277387264
+    m_Localized: 6f47426bd0f5d384ca090e3bf06d88f3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 830585368576
+    m_Localized: a758168a251567e469281b0e17f9d77b
+    m_Metadata:
+      m_Items: []
+  - m_Id: 849765920768
+    m_Localized: a341bbb8ff71b4e498be96b07a42eed4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 561579487232
+    m_Localized: d344e0acffd10cf42a72c2d27072a48d
+    m_Metadata:
+      m_Items: []
+  - m_Id: 914123321344
+    m_Localized: c3836a6a372ee154cafc30c2861aacfb
+    m_Metadata:
+      m_Items: []
+  - m_Id: 950110449664
+    m_Localized: 6fd1102db6b5d8d459fd19e95e2349b8
+    m_Metadata:
+      m_Items: []
+  - m_Id: 965734232064
+    m_Localized: 957560b9230a84c4da5dfd8478eaafc1
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

@@ -28,13 +28,13 @@ public class PhoneInteraction : MonoBehaviour
     {
         if (GameStateManager.Instance.IsDriving)
         {
-            StartCoroutine(ShowWarning("You can't use your phone while driving"));
+            StartCoroutine(ShowWarning("Warning_PhoneDriving"));
             Debug.Log("You can't use your phone while driving");
             return;
         }
         if (!GameStateManager.Instance.RideFinished)
         {
-            StartCoroutine(ShowWarning("It's rude to use your phone while passenger is still inside"));
+            StartCoroutine(ShowWarning("Warning_PhonePassenger"));
             Debug.Log("Finish ride");
             return;
         }
@@ -45,9 +45,9 @@ public class PhoneInteraction : MonoBehaviour
 
     }
 
-    IEnumerator ShowWarning (string message)
+    IEnumerator ShowWarning (string key)
     {
-        warningText.text = message;
+        warningText.text = DialogueLoc.GetUItext(key);
         warningText.gameObject.SetActive(true);
 
         yield return new WaitForSeconds(3f);//WaitForSecondsRealtime use when world stops

@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: UI_ko
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.StringTable
+  m_LocaleId:
+    m_Code: ko
+  m_SharedData: {fileID: 11400000, guid: 50d22510021b5b8459bcfb45a5fe74fc, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 880971542528
+    m_Localized: "\uC6B4\uC804 \uC911\uC5D0\uB294 \uB2F4\uBC30\uB97C \uD53C\uC6B8
+      \uC218 \uC5C6\uC5B4\uC694"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2734140878848
+    m_Localized: "\uC2B9\uAC1D\uC774 \uD0C0\uACE0 \uC788\uC744 \uB54C \uB2F4\uBC30\uB97C
+      \uD53C\uC6B0\uB294 \uAC74 \uC2E4\uB840\uC608\uC694"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3035375792128
+    m_Localized: "\uC6B4\uC804 \uC911\uC5D0\uB294 \uD734\uB300\uD3F0\uC744 \uC0AC\uC6A9\uD560
+      \uC218 \uC5C6\uC5B4\uC694"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3121082200064
+    m_Localized: "\uC2B9\uAC1D\uC774 \uC544\uC9C1 \uD0C0\uACE0 \uC788\uC744 \uB54C
+      \uD734\uB300\uD3F0\uC744 \uC0AC\uC6A9\uD558\uB294 \uAC74 \uC2E4\uB840\uC608\uC694"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3232562606080
+    m_Localized: "\uAC8C\uC784\uC744 \uC800\uC7A5\uD558\uB294 \uC911..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5770728894464
+    m_Localized: "\uC608"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5800613310464
+    m_Localized: "\uC544\uB2C8\uC694"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5851146285056
+    m_Localized: "\uB2F4\uBC30\uB97C \uD53C\uC6B0\uC9C0 \uC54A\uC73C\uBA74 \uAC8C\uC784
+      \uC9C4\uD589 \uC0C1\uD669\uC774 \uC800\uC7A5\uB418\uC9C0 \uC54A\uC544\uC694.\u23CE\uC815\uB9D0
+      \uB098\uAC00\uC2DC\uACA0\uC5B4\uC694?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6067673034752
+    m_Localized: "\uB85C\uB529 \uC911"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24354075111424
+    m_Localized: "\uC870\uBA85 \uC2A4\uC704\uCE58"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24395783270400
+    m_Localized: "\uB77C\uB514\uC624"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24418927439872
+    m_Localized: GPS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24450938368000
+    m_Localized: "\uD734\uB300\uD3F0"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24472132186112
+    m_Localized: "\uB2F4\uBC30"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24538184085504
+    m_Localized: "\uBA54\uBAA8"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 64658627031040
+    m_Localized: "\"F\" \uD0A4\uB97C \uB20C\uB7EC \uD398\uC774\uC9C0 \uB118\uAE30\uAE30"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86743764103168
+    m_Localized: "\uC870\uBA85\uC740 \uD55C \uAC00\uC9C0 \uC0C9\uC740 10\uBC88, \uB450
+      \uAC00\uC9C0 \uC0C9\uC744 \uC11E\uC73C\uB824\uBA74 \uAC01\uAC01 5\uBC88\uC529
+      \uB20C\uB7EC\uC11C \uBC14\uAFC0 \uC218 \uC788\uC5B4\uC694."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86751641006080
+    m_Localized: "\uBE68\uAC04\uC0C9 (Red) - \uBD84\uB178\n\uCD08\uB85D\uC0C9 (Green)
+      - \uD589\uBCF5\n\uD30C\uB780\uC0C9 (Blue) - \uC2AC\uD514\n\uB178\uB780\uC0C9
+      (Yellow) - \uB450\uB824\uC6C0\n\uC790\uD64D\uC0C9 (Magenta) - \uC218\uCE58\uC2EC\n\uCCAD\uB85D\uC0C9
+      (Cyan) - \uC6B0\uC6B8"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86762915295232
+    m_Localized: "\uC74C\uC545\uC744 \uBCC0\uACBD\uD558\uBA74 \uC2B9\uAC1D\uC774
+      \uC790\uC2E0\uC758 \uAC10\uC815\uC744 \uD45C\uD604\uD558\uB294 \uBC29\uC2DD\uB3C4
+      \uB2EC\uB77C\uC9D1\uB2C8\uB2E4.\n\n\uC5B4\uB5A4 \uC74C\uC545\uC740 \uC2B9\uAC1D\uC774
+      \uC790\uAE30 \uC790\uC2E0\uC5D0 \uB300\uD574 \uC0DD\uAC01\uD558\uAC8C \uB9CC\uB4E4\uACE0,
+      \uB2E4\uB978 \uC74C\uC545\uC740 \uACFC\uAC70\uC758 \uAE30\uC5B5\uC744 \uB5A0\uC62C\uB9AC\uAC8C
+      \uD569\uB2C8\uB2E4."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86775544344576
+    m_Localized: "\uB85C\uD30C\uC774 (Lofi) - \uC790\uAE30 \uC790\uC2E0\uC5D0 \uB300\uD55C
+      \uACE0\uBBFC\uC774\uB098 \uACFC\uAC70\uC758 \uC0C1\uD669\uC5D0 \uC5BD\uB9E4\uC5EC
+      \uC788\uB294 \uC0C1\uD0DC\n\uB85D (Rock) - \uC790\uAE30 \uC790\uC2E0\uC774
+      \uC544\uB2CC \uD2B9\uC815 \uC778\uBB3C\uC5D0 \uB300\uD55C \uAC10\uC815\uC774\uB098
+      \uC0DD\uAC01\n\uBCA0\uC774\uD37C\uC6E8\uC774\uBE0C (Vaporwave) - \uC774\uBBF8
+      \uC9C0\uB098\uAC00 \uBC84\uB9B0 \uAC83\uC5D0 \uB300\uD55C \uBBF8\uB828\uC774\uB098
+      \uC774\uB8E8\uACE0 \uC2F6\uC740 \uBAA9\uD45C\uC5D0 \uB300\uD55C \uC5F4\uB9DD\n\uC7AC\uC988
+      (Jazz) - \uACFC\uAC70\uC758 \uC77C\uC744 \uB4A4\uB85C\uD558\uACE0 \uC78A\uC73C\uB824\uB294
+      \uB9C8\uC74C"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 379368639492096
+    m_Localized: "Live A Review \uB370\uBAA8\uB97C \uD50C\uB808\uC774\uD574 \uC8FC\uC154\uC11C
+      \uAC10\uC0AC\uD569\uB2C8\uB2E4!\n\uC774\uBC88 \uC6B4\uD589\uC740 \uC5EC\uAE30\uC11C
+      \uB05D\uB098\uC9C0\uB9CC, \uC774\uC57C\uAE30\uB294 \uC774\uC81C \uB9C9 \uC2DC\uC791\uC785\uB2C8\uB2E4.
+      \uB2E4\uB978 \uC2B9\uAC1D\uB4E4\uC774 \uAE30\uB2E4\uB9AC\uACE0 \uC788\uACE0,
+      \uBAA8\uB450\uAC00 \uB300\uD654\uD558\uAE30 \uC26C\uC6B4 \uC0AC\uB78C\uC740
+      \uC544\uB2C8\uB78D\uB2C8\uB2E4.\n\n\uB354 \uBCF4\uACE0 \uC2F6\uC73C\uC2E0\uAC00\uC694?
+      \uBA54\uC778 \uBA54\uB274\uC5D0\uC11C \uB370\uBAA8\uB97C \uB2E4\uC2DC \uD50C\uB808\uC774\uD558\uBA74
+      \uB193\uCE5C \uB300\uC0AC \uC120\uD0DD\uC9C0\uC640 \uB2E4\uC591\uD55C \uACB0\uB9D0\uC744
+      \uD655\uC778\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4.\n\n\uC815\uC2DD \uBC84\uC804
+      Live A Review\uB294 2027\uB144 \uBD04 \uCD9C\uC2DC \uC608\uC815\uC785\uB2C8\uB2E4.
+      \uB354 \uB9CE\uC740 \uC2B9\uAC1D\uACFC \uC774\uC57C\uAE30, \uADF8\uB9AC\uACE0
+      \uB354 \uB9CE\uC740 \uB180\uB77C\uC6C0\uC744 \uC120\uBCF4\uC77C \uC218 \uC788\uB3C4\uB85D
+      \uC5F4\uC2EC\uD788 \uC900\uBE44 \uC911\uC785\uB2C8\uB2E4.\n\uD568\uAED8\uD574
+      \uC8FC\uC154\uC11C \uAC10\uC0AC\uD569\uB2C8\uB2E4.\n\nCheesy Bun"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 379403192168448
+    m_Localized: "\uBA54\uB274\uB85C"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

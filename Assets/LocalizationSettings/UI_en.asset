@@ -1,0 +1,146 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: UI_en
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.StringTable
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 50d22510021b5b8459bcfb45a5fe74fc, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 880971542528
+    m_Localized: "You can\u2019t smoke while driving"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2734140878848
+    m_Localized: "It\u2019s rude to smoke with passenger inside"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3035375792128
+    m_Localized: "You can\u2019t use your phone while driving"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3121082200064
+    m_Localized: "It\u2019s rude to use your phone while passenger is still inside"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3232562606080
+    m_Localized: Game is saving...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5770728894464
+    m_Localized: Yes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5800613310464
+    m_Localized: No
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5851146285056
+    m_Localized: 'Progress of the game will not be saved without smoking.
+
+      Are
+      you sure you want to leave?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6067673034752
+    m_Localized: Loading
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24354075111424
+    m_Localized: Light Switch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24395783270400
+    m_Localized: Radio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24418927439872
+    m_Localized: GPS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24450938368000
+    m_Localized: Phone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24472132186112
+    m_Localized: Cigarettes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24538184085504
+    m_Localized: Notes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 64658627031040
+    m_Localized: Press "F" to flip the page
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86743764103168
+    m_Localized: 'Light can be changed with single color (10 beeps) or mix of two
+      colors (5 and 5 beeps). '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86751641006080
+    m_Localized: 'Red - angry
+
+      Green - happy
+
+      Blue - sad
+
+      Yellow
+      - fear
+
+      Magenta - shame
+
+      Cyan - melancholy'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86762915295232
+    m_Localized: "Changing the music will change how the passenger expresses their
+      feelings. \n\nSome might make them think about themselfs while others will
+      make them think about the past. "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86775544344576
+    m_Localized: 'Lofi - stuck/about yourself
+
+
+      Rock - towards a specific person,
+      not yourself
+
+
+      Vaporwave - Wanting something, either that already passed
+      or an ambition
+
+
+      Jazz - leave behind, forget'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 379368639492096
+    m_Localized: "Thank you for playing the demo of Live A Review!\nThis ride is
+      over, but this is only the beginning. Other passengers are waiting, and not
+      all of them are as easy to talk to.\n\nWant to see more? You can replay the
+      demo from the main menu to discover all the dialogue options and different
+      outcomes you might have missed.\n\nThe full version of Live A Review is coming
+      in Spring 2027. We\u2019re working hard to bring you more passengers, more
+      stories, and more surprises along the way.\nThanks for being part of this journey
+      with us.\n\nCheesy Buns"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 379403192168448
+    m_Localized: Back To Menu
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

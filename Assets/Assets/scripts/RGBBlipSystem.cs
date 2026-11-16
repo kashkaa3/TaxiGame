@@ -12,7 +12,7 @@ public class RGBBlipSystem : MonoBehaviour
     public int maxBlips = 10;
 
     [Header("Story emotion")]
-    [Range(0.5f, 1f)] public float minShare = 0.4f;
+    public bool requireFullBar = true;
 
     [Header("Glitch")]
     public bool glitchesEnabled = false;   // Desactivados para la beta
@@ -97,20 +97,25 @@ public class RGBBlipSystem : MonoBehaviour
         {
             int total = blips.Count;
             if (total == 0) return ColorBlend.Nothing;
+            if (requireFullBar && total < maxBlips) return ColorBlend.Nothing;
 
-            float margin = 0.0001f; // no rounding
-            bool hasR = CountOf(BlipColor.R) / (float)total >= minShare - margin;
-            bool hasG = CountOf(BlipColor.G) / (float)total >= minShare - margin;
-            bool hasB = CountOf(BlipColor.B) / (float)total >= minShare - margin;
+            int r = CountOf(BlipColor.R);
+            int g = CountOf(BlipColor.G);
+            int b = CountOf(BlipColor.B);
 
-            //CASES
-            if (hasR && hasG && hasB) return ColorBlend.Nothing;
-            if (hasR && hasG) return ColorBlend.RedGreen;
-            if (hasR && hasB) return ColorBlend.RedBlue;
-            if (hasG && hasB) return ColorBlend.GreenBlue;
-            if (hasR) return ColorBlend.Red;
-            if (hasG) return ColorBlend.Green;
-            if (hasB) return ColorBlend.Blue;
+            //CASE 1 = THE WHOLE STACK IS ONE COLOUR
+            if (r == total) return ColorBlend.Red;
+            if (g == total) return ColorBlend.Green;
+            if (b == total) return ColorBlend.Blue;
+
+            //CASE 2 = EXACTLY HALF AND HALF
+            if (total % 2 == 0)
+            {
+                int half = total / 2;
+                if (r == half && g == half) return ColorBlend.RedGreen;
+                if (r == half && b == half) return ColorBlend.RedBlue;
+                if (g == half && b == half) return ColorBlend.GreenBlue;
+            }
 
             return ColorBlend.Nothing;
         }

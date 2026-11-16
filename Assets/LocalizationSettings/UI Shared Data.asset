@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: UI Shared Data
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.SharedTableData
+  m_TableCollectionName: UI
+  m_TableCollectionNameGuidString: 50d22510021b5b8459bcfb45a5fe74fc
+  m_Entries:
+  - m_Id: 880971542528
+    m_Key: Warning_SmokeDriving
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2734140878848
+    m_Key: Warning_SmokePassenger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3035375792128
+    m_Key: Warning_PhoneDriving
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3121082200064
+    m_Key: Warning_PhonePassenger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3232562606080
+    m_Key: Saving_Game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5770728894464
+    m_Key: Yes_Button
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5800613310464
+    m_Key: No_Button
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5851146285056
+    m_Key: Progression_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6067673034752
+    m_Key: Loading_Game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24354075111424
+    m_Key: Obj_LightSwitch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24395783270400
+    m_Key: Obj_Radio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24418927439872
+    m_Key: Obj_GPS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24450938368000
+    m_Key: Obj_Phone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24472132186112
+    m_Key: Obj_Cigarettes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24538184085504
+    m_Key: Obj_Notes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 64658627031040
+    m_Key: Notes_Clue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86743764103168
+    m_Key: Note_Text1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86751641006080
+    m_Key: Note_Text2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86762915295232
+    m_Key: Note_Text3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86775544344576
+    m_Key: Note_Text4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 379368639492096
+    m_Key: End_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 379403192168448
+    m_Key: End_Button
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 5949460950371794944
+  references:
+    version: 2
+    RefIds:
+    - rid: 5949460950371794944
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1794297214188

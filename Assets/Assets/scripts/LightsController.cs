@@ -44,7 +44,7 @@ public class LightsController : MonoBehaviour
 
     private IEnumerator FlickerRoutine(float duration)
     {
-        for (float t = 0; t< duration; t+= 0.07f)
+        for (float t = 0; t < duration; t += 0.07f)
         {
             for (int i = 0; i < lights.Length; i++)
             {
@@ -60,5 +60,5 @@ public class LightsController : MonoBehaviour
 
         flickerRoutine = null;
     }
-    
+
 }

@@ -36,6 +36,9 @@ public class LoadingOverlay : MonoBehaviour
 
     private IEnumerator Start()
     {
+        string loadingLine = DialogueLoc.GetUItext("Loading_Game"); 
+        loadingText.text = loadingLine;
+
         float elapsed = 0f;
         float dotTimer = 0f;
         int dotCount = 0;
@@ -49,7 +52,7 @@ public class LoadingOverlay : MonoBehaviour
             {
                 dotTimer = 0f;
                 dotCount = (dotCount + 1) % 4; // 0, 1, 2, 3 dots
-                loadingText.text = "Loading" + new string('.', dotCount);
+                loadingText.text = loadingLine + new string('.', dotCount);
             }
 
             yield return null;

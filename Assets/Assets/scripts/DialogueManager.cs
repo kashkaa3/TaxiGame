@@ -29,6 +29,8 @@ public class DialogueManager : MonoBehaviour
     BaseNode nextNode;
     string lastPassenger= "";
 
+    public EndScreen endScreen;
+
     void Awake()
     {
         dialoguePanel.SetActive(false);
@@ -101,10 +103,15 @@ public class DialogueManager : MonoBehaviour
     public void EndDialogue()
     {
         isTalking = false;
-        //dialoguePanel.SetActive(false); // Hide for test unhide later
-        //waveDisplay.previewMode = true; // Test!!!
-        //characterName.text = ""; // Test!!!
-        Debug.Log("Dialogue Ended"); 
+        Debug.Log("Dialogue Ended");
+
+        
+
+        if (endScreen != null && GameStateManager.Instance.IsLastPassenger)
+        {
+            Debug.Log("Llamando a ShowEnd");
+            endScreen.ShowEnd();
+        }
     }
 
     /////////////////////////////////////////////////////////////////////////////////////
@@ -161,13 +168,13 @@ public class DialogueManager : MonoBehaviour
 
         if (!string.IsNullOrEmpty(line.lineKey)) // Check if a localization key is provided
         {
-            var lineOp = DialogueLoc.Get(line.lineKey); 
+            var lineOp = DialogueLoc.GetD(line.lineKey); 
             yield return lineOp; 
             text = lineOp.Result; // Update the text with the localized dialogue line
 
             if (!line.hideName && !string.IsNullOrEmpty(passengerID)) // Check if a localization key for the passenger name is provided
             {
-                var nameOp = DialogueLoc.Get("Name_" + passengerID); // Get the localized passenger name using a specific key format
+                var nameOp = DialogueLoc.GetD("Name_" + passengerID); // Get the localized passenger name using a specific key format
                 yield return nameOp;
                 passenger = nameOp.Result;
             }

@@ -10,7 +10,7 @@ public static class DialogueKeyGenerator
     [MenuItem("Tools/Localization/Sync Dialogue Graphs to String Table")]
     static void Sync()
     {
-        var collection = LocalizationEditorSettings.GetStringTableCollection(DialogueLoc.Table);
+        var collection = LocalizationEditorSettings.GetStringTableCollection(DialogueLoc.DTable);
         if (collection == null)
         {
             Debug.LogError("String Table Collection not found");

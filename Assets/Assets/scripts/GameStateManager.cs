@@ -11,6 +11,10 @@ public class GameStateManager : MonoBehaviour
 
     public int Points = 0;
 
+    public int TotalPassengers = 1; //Remember to change this as we add more
+
+    public bool IsLastPassenger => PassengerNumber + 1 >= TotalPassengers;
+
     private void Awake()
     {
         Instance = this;

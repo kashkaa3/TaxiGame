@@ -21,28 +21,30 @@ public class CigaretteInteraction : MonoBehaviour
     public void Interact()
     {
         if (GameStateManager.Instance.IsDriving) { 
-            StartCoroutine(ShowWarning("You can't smoke while driving"));
+            StartCoroutine(ShowWarning("Warning_SmokeDriving"));
             return;
         }
         if (!GameStateManager.Instance.RideFinished)
         {
-            StartCoroutine(ShowWarning("It's rude to smoke with passenger inside"));
+            StartCoroutine(ShowWarning("Warning_SmokePassenger"));
             return;
         }
         Smoke();
     }
 
-    IEnumerator ShowWarning(string message)
+    IEnumerator ShowWarning(string key)
     {
-        warningText.text = message;
+        warningText.text = DialogueLoc.GetUItext(key);
         warningText.gameObject.SetActive(true);
         yield return new WaitForSeconds(5f);//WaitForSecondsRealtime use when world stops
         warningText.gameObject.SetActive(false);
     }
 
-    IEnumerator ShowSaving(string message)
+    IEnumerator ShowSaving(string key)
     {
-        savingText.text = message;
+        var op = DialogueLoc.GetUI(key);
+        yield return op;
+        savingText.text = op.Result;
         savingText.gameObject.SetActive(true);
         yield return new WaitForSeconds(5f);//WaitForSecondsRealtime use when world stops
         savingText.gameObject.SetActive(false);
@@ -53,6 +55,6 @@ public class CigaretteInteraction : MonoBehaviour
     {
         Background.SetActive(true);
         savingSystem.SaveGame();
-        StartCoroutine(ShowSaving("Game is saving..."));
+        StartCoroutine(ShowSaving("Saving_Game"));
     }
 }

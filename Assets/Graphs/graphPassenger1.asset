@@ -761,7 +761,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 1240, y: 1560}
+  position: {x: 1320, y: 1528}
   ports:
     keys:
     - entry
@@ -785,7 +785,7 @@ MonoBehaviour:
         PublicKeyToken=null
       connections:
       - fieldName: entry
-        node: {fileID: 3340116496687329708}
+        node: {fileID: 805970370456554308}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -1015,7 +1015,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 1928, y: 920}
+  position: {x: 2344, y: 888}
   ports:
     keys:
     - entry
@@ -1212,7 +1212,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: -632, y: 1576}
+  position: {x: -408, y: 1544}
   ports:
     keys:
     - entry
@@ -1236,7 +1236,7 @@ MonoBehaviour:
         PublicKeyToken=null
       connections:
       - fieldName: entry
-        node: {fileID: 7356605598068822500}
+        node: {fileID: -5775432972784685058}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -1263,7 +1263,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 1208, y: 904}
+  position: {x: 1624, y: 872}
   ports:
     keys:
     - entry
@@ -1411,7 +1411,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 184, y: 1576}
+  position: {x: 104, y: 1544}
   ports:
     keys:
     - entry
@@ -1423,7 +1423,7 @@ MonoBehaviour:
         PublicKeyToken=null
       connections:
       - fieldName: exit
-        node: {fileID: 3020464287169303858}
+        node: {fileID: -6619519688242885609}
         reroutePoints: []
       _direction: 0
       _connectionType: 0
@@ -1442,7 +1442,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   passengerName: O.A.R.
-  dialogLine: 'Okay, sorry. Time to work!
+  dialogLine: 'Time to work!
 
 '
   lineKey: graphPassenger1_038
@@ -1462,7 +1462,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 1688, y: 904}
+  position: {x: 2104, y: 872}
   ports:
     keys:
     - entry
@@ -1656,6 +1656,56 @@ MonoBehaviour:
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
   hideSprite: 0
   hideName: 0
+--- !u!114 &-5282927897850860939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cd97fbdb4d7d744ab856c0b79a4f20b, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
+  graph: {fileID: 11400000}
+  position: {x: 904, y: 872}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: -5282927897850860939}
+      _typeQualifiedName: EmptyStruct, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: exit
+        node: {fileID: -937323927779282823}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: -5282927897850860939}
+      _typeQualifiedName: EmptyStruct, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: entry
+        node: {fileID: -305645120444436940}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  passengerName: 
+  dialogLine: To see how colors and music work together, you can open notes I left
+    for you.
+  lineKey: graphPassenger1_117
+  sprite: {fileID: 0}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &-4277678790515867013
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1817,7 +1867,7 @@ MonoBehaviour:
   m_Name: Tutorial
   m_EditorClassIdentifier: Assembly-CSharp::TutorialNode
   graph: {fileID: 11400000}
-  position: {x: 664, y: 280}
+  position: {x: 600, y: 312}
   ports:
     keys:
     - entry
@@ -2398,6 +2448,52 @@ MonoBehaviour:
   song: 
   mood: blue
   holdTime: 2
+--- !u!114 &-1495187150381905893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cd97fbdb4d7d744ab856c0b79a4f20b, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
+  graph: {fileID: 11400000}
+  position: {x: 24, y: 4088}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: -1495187150381905893}
+      _typeQualifiedName: EmptyStruct, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: exit
+        node: {fileID: 912002818827790642}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: -1495187150381905893}
+      _typeQualifiedName: EmptyStruct, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  passengerName: Vanessa
+  dialogLine: I'll leave a good review, I know you care about those!
+  lineKey: graphPassenger1_074
+  sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &-1201507153871476823
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2590,17 +2686,15 @@ MonoBehaviour:
         PublicKeyToken=null
       connections:
       - fieldName: entry
-        node: {fileID: -725830513699050326}
+        node: {fileID: -5282927897850860939}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
   passengerName: O.A.R.
-  dialogLine: 'The more your passenger will speak up about themselves, the better
+  dialogLine: The more your passenger will speak up about themselves, the better
     their review about you will be!
-
-'
   lineKey: graphPassenger1_023
   sprite: {fileID: 0}
   hideSprite: 0
@@ -2618,7 +2712,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 936, y: 904}
+  position: {x: 1352, y: 872}
   ports:
     keys:
     - entry
@@ -2630,7 +2724,7 @@ MonoBehaviour:
         PublicKeyToken=null
       connections:
       - fieldName: exit
-        node: {fileID: -937323927779282823}
+        node: {fileID: -305645120444436940}
         reroutePoints: []
       _direction: 0
       _connectionType: 0
@@ -2817,7 +2911,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 1768, y: 1560}
+  position: {x: 1880, y: 1240}
   ports:
     keys:
     - entry
@@ -2839,10 +2933,7 @@ MonoBehaviour:
       _node: {fileID: -403425770338826746}
       _typeQualifiedName: EmptyStruct, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
-      connections:
-      - fieldName: entry
-        node: {fileID: 805970370456554308}
-        reroutePoints: []
+      connections: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
@@ -2851,6 +2942,56 @@ MonoBehaviour:
   dialogLine: So if you're not gonna be able to find the right atmosphere for them,
     they will not bother continuing.
   lineKey: graphPassenger1_041
+  sprite: {fileID: 0}
+  hideSprite: 0
+  hideName: 0
+--- !u!114 &-305645120444436940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cd97fbdb4d7d744ab856c0b79a4f20b, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
+  graph: {fileID: 11400000}
+  position: {x: 1128, y: 872}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: -305645120444436940}
+      _typeQualifiedName: EmptyStruct, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: exit
+        node: {fileID: -5282927897850860939}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: -305645120444436940}
+      _typeQualifiedName: EmptyStruct, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: entry
+        node: {fileID: -725830513699050326}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  passengerName: 
+  dialogLine: "Notes are on the seat to your right.\r\nYou can open them any time
+    you\u2019re not sure how to answer."
+  lineKey: graphPassenger1_118
   sprite: {fileID: 0}
   hideSprite: 0
   hideName: 0
@@ -3140,6 +3281,9 @@ MonoBehaviour:
   - {fileID: 8548816098558393704}
   - {fileID: 8618385113639616090}
   - {fileID: -4109208074143997208}
+  - {fileID: -5282927897850860939}
+  - {fileID: -305645120444436940}
+  - {fileID: -1495187150381905893}
 --- !u!114 &264144818505741905
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3306,7 +3450,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 2040, y: 1560}
+  position: {x: 2024, y: 1544}
   ports:
     keys:
     - entry
@@ -3318,7 +3462,7 @@ MonoBehaviour:
         PublicKeyToken=null
       connections:
       - fieldName: exit
-        node: {fileID: -403425770338826746}
+        node: {fileID: -7391627430175953332}
         reroutePoints: []
       _direction: 0
       _connectionType: 0
@@ -3337,7 +3481,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   passengerName: O.A.R.
-  dialogLine: 'Okay, sorry. Time to work!
+  dialogLine: 'Time to work!
 
 '
   lineKey: graphPassenger1_042
@@ -3457,7 +3601,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: -152, y: 4072}
+  position: {x: -264, y: 4072}
   ports:
     keys:
     - entry
@@ -3479,13 +3623,16 @@ MonoBehaviour:
       _node: {fileID: 912002818827790642}
       _typeQualifiedName: EmptyStruct, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
-      connections: []
+      connections:
+      - fieldName: entry
+        node: {fileID: -1495187150381905893}
+        reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
   passengerName: Vanessa
-  dialogLine: I'll leave a good review, I know you care about those!
+  dialogLine: Can you keep what I said between us?
   lineKey: graphPassenger1_074
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
   hideSprite: 0
@@ -3585,9 +3732,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   passengerName: Vanessa
-  dialogLine: 'UGH...
-
-    ...Sorry. I don''t usually yell in taxis.'
+  dialogLine: UGH...
   lineKey: graphPassenger1_058
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
   hideSprite: 0
@@ -3722,7 +3867,7 @@ MonoBehaviour:
   dialogLine: 'Oh, is it my stop already?
 
     Thank you for the ride, and please,
-    if you can. Can you keep what I said between us?'
+    if you can. '
   lineKey: graphPassenger1_073
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
   hideSprite: 0
@@ -4063,7 +4208,7 @@ MonoBehaviour:
   - song: jazz
     mood: blue
     points: 2
-  noTimeLimit: 0
+  noTimeLimit: 1
   holdTime: 3
 --- !u!114 &2564711723287274237
 MonoBehaviour:
@@ -4282,7 +4427,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: -72, y: 1576}
+  position: {x: -472, y: 1256}
   ports:
     keys:
     - entry
@@ -4304,10 +4449,7 @@ MonoBehaviour:
       _node: {fileID: 3020464287169303858}
       _typeQualifiedName: EmptyStruct, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
-      connections:
-      - fieldName: entry
-        node: {fileID: -5775432972784685058}
-        reroutePoints: []
+      connections: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
@@ -4430,7 +4572,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 1496, y: 1560}
+  position: {x: 1608, y: 1240}
   ports:
     keys:
     - entry
@@ -4440,10 +4582,7 @@ MonoBehaviour:
       _node: {fileID: 3340116496687329708}
       _typeQualifiedName: EmptyStruct, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
-      connections:
-      - fieldName: exit
-        node: {fileID: -7391627430175953332}
-        reroutePoints: []
+      connections: []
       _direction: 0
       _connectionType: 0
       _typeConstraint: 0
@@ -4633,7 +4772,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 1448, y: 920}
+  position: {x: 1864, y: 888}
   ports:
     keys:
     - entry
@@ -5055,10 +5194,10 @@ MonoBehaviour:
     mood: redgreen
     points: 1
   - song: rock
-    mood: green
+    mood: greenblue
     points: 2
-  noTimeLimit: 0
-  holdTime: 0
+  noTimeLimit: 1
+  holdTime: 3
 --- !u!114 &5379770347682841250
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5133,7 +5272,7 @@ MonoBehaviour:
   - song: lofi
     mood: green
     points: 0
-  noTimeLimit: 0
+  noTimeLimit: 1
   holdTime: 3
 --- !u!114 &5409946264617930825
 MonoBehaviour:
@@ -5667,7 +5806,7 @@ MonoBehaviour:
   - song: lofi
     mood: redgreen
     points: 1
-  noTimeLimit: 0
+  noTimeLimit: 1
   holdTime: 3
 --- !u!114 &7184981775696164797
 MonoBehaviour:
@@ -5768,7 +5907,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: -360, y: 1576}
+  position: {x: -760, y: 1256}
   ports:
     keys:
     - entry
@@ -5778,10 +5917,7 @@ MonoBehaviour:
       _node: {fileID: 7356605598068822500}
       _typeQualifiedName: EmptyStruct, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
-      connections:
-      - fieldName: exit
-        node: {fileID: -6619519688242885609}
-        reroutePoints: []
+      connections: []
       _direction: 0
       _connectionType: 0
       _typeConstraint: 0
