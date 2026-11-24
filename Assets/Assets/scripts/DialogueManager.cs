@@ -2,6 +2,8 @@ using System.Collections;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using System.Collections.Generic;
+using System.Text.RegularExpressions;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -26,6 +28,12 @@ public class DialogueManager : MonoBehaviour
     public bool skipEnabled = true; // Flag to enable or disable skipping the dialogue
     bool skipPressed = false; // Flag to check if the skip button has been pressed
 
+    [Header("Keywords")]
+    public KeywordNote keywordNote;
+    public Color keywordColor = new Color(1f, 0.82f, 0.25f); //color of marked words
+
+    List<string> keywords = new List<string>();
+
     BaseNode nextNode;
     string lastPassenger= "";
 
@@ -34,6 +42,7 @@ public class DialogueManager : MonoBehaviour
     void Awake()
     {
         dialoguePanel.SetActive(false);
+        ClearUI();
     }
 
     void Update()
@@ -47,6 +56,21 @@ public class DialogueManager : MonoBehaviour
     {
         bool gameFinished = PlayerPrefs.GetInt("gameFinished", 0) == 1;
         return skipEnabled || gameFinished;
+    }
+
+    void ClearUI()
+    {
+        dialogueText.text = "";
+        characterName.text = "";
+        if (characterImage != null) characterImage.enabled = false; // Hide the character image when clearing the UI
+    }
+
+    void AddKeyword(string kword)
+    {
+        kword = kword.Trim();
+        foreach (string k in keywords)
+            if (k.ToLower() == kword.ToLower()) return;
+        keywords.Add(kword);
     }
 
     //////////////////////////////////////////////////////////////////////////////////////
@@ -121,6 +145,7 @@ public class DialogueManager : MonoBehaviour
     IEnumerator RunChoice (ChoiceNode choiceNode)
     {
         characterName.text = ""; //hide name while wave runs
+        if (keywordNote != null) keywordNote.ShowNote(keywords);
         atmosphere.noTimeLimit = choiceNode.noTimeLimit;
         atmosphere.Checkpoint(choiceNode.GetCombos());
 
@@ -148,6 +173,9 @@ public class DialogueManager : MonoBehaviour
         {
             yield return new WaitUntil(() => !atmosphere.isInputActive); //waits until timer is over
         }
+
+        if (keywordNote != null) keywordNote.Hide();
+        keywords.Clear(); // Clear the keywords list after the choice is made
 
         AtmosphereResult result = atmosphere.lastResult;
 
@@ -199,23 +227,38 @@ public class DialogueManager : MonoBehaviour
             PassengerUI.Instance.PlayEnter();
         }
 
+        string hex = ColorUtility.ToHtmlStringRGB(keywordColor);
+        foreach (Match m in Regex.Matches(text, @"///(.+?)///"))
+            AddKeyword(m.Groups[1].Value); // Add the keyword to the list
+        bool inKeyword = false; // Flag to track if we are currently inside a keyword
+
         skipPressed = false; // Reset the skip button state at the start of typing a new line
         dialogueText.text = " ";
         isTalking = true; // Set isTalking to true when starting to type the line
-        foreach (char letter in text)
+        for (int i = 0; i < text.Length; i++)
         {
             if (skipPressed)
             {
-                dialogueText.text = text;
-                skipPressed = false;
+                dialogueText.text = Regex.Replace(text, @"///(.+?)///", "<color=#" + hex + ">$1</color>");
+                skipPressed = false; // Reset the skip button state after processing the text
                 break;
             }
-            dialogueText.text += letter;
+
+            if (i + 3 <= text.Length && text.Substring(i, 3) == "///")
+            {
+                dialogueText.text += inKeyword ? "</color>" : "<color=#" + hex + ">"; // Toggle the color tag for keywords
+                inKeyword = !inKeyword; // Toggle the inKeyword flag when encountering the keyword delimiter
+                i += 2; // Skip the next two characters as they are part of the delimiter
+                continue;
+            }
+
+            char letter = text[i];
+            dialogueText.text += letter; // Append the current character to the dialogue text
             yield return new WaitForSeconds(letter >= 0xAC00 ? typingSpeed * koreanTypingSpeed : typingSpeed);
         }
         isTalking = false; // Set isTalking to false after the line has been fully typed
         
-        float waitTime = ReadingTime(text); // Calculate the time to wait based on the length of the dialogue line
+        float waitTime = ReadingTime(text.Replace("///", "")); // Calculate the time to wait based on the length of the dialogue line
         float timer = 0f;
         while (timer < waitTime && !skipPressed)
         {

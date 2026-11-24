@@ -10,8 +10,11 @@ public class NotesInteraction : MonoBehaviour
     public bool notesOpened = false;
     int currentPage = 0;
 
+    public static bool IsOpen { get; private set; }
+
     public void Awake()
     {
+        IsOpen = false;
         bg.SetActive(false);
         clue.SetActive(false);
         HideAll();   
@@ -19,6 +22,8 @@ public class NotesInteraction : MonoBehaviour
 
     public void Update()
     {
+        if (PauseMenu.GameIsPaused) return; //if game is paused, don't allow notes to be opened or closed
+
         if (notesOpened)
         {
             if (Input.GetKeyDown(KeyCode.Q) || Input.GetMouseButtonDown(1))
@@ -45,6 +50,7 @@ public class NotesInteraction : MonoBehaviour
 
     public void OpenNotes()
     {
+        IsOpen = true;
         bg.SetActive(true);
         clue.SetActive(true);
         ShowPage(0);
@@ -56,6 +62,7 @@ public class NotesInteraction : MonoBehaviour
     {
         if (!notesOpened) return;
 
+        IsOpen = false;
         bg.SetActive(false);
         clue.SetActive(false);
         HideAll();

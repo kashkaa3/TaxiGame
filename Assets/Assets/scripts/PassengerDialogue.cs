@@ -19,6 +19,7 @@ public class PassengerDialogue : MonoBehaviour
 
     IEnumerator StartAfterDelay()
     {
+        yield return new WaitUntil(() => !LoadingOverlay.IsLoading); // Wait until the loading overlay is no longer active
         yield return new WaitForSeconds(dialogueDelay); // Wait for the specified delay
         StartPassengerDialogue(); // Start the dialogue after the delay
     }

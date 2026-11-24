@@ -24,6 +24,8 @@ public static class DialogueKeyGenerator
             return;
         }
 
+        var usedKeys = new System.Collections.Generic.HashSet<string>(); 
+
         foreach (string guid in AssetDatabase.FindAssets("t:DialogueGraph"))
         {
             var graph = AssetDatabase.LoadAssetAtPath<DialogueGraph>(AssetDatabase.GUIDToAssetPath(guid));
@@ -34,6 +36,12 @@ public static class DialogueKeyGenerator
                 var d = node as DialogueNode;
                 if (d == null) continue;
 
+                if (!string.IsNullOrEmpty(d.lineKey) && !usedKeys.Add(d.lineKey))
+                {
+                    Debug.LogWarning("Duplicate key " + d.lineKey + " in " + graph.name + ": '" + d.dialogLine + "' gets a new key");
+                    d.lineKey = "";
+                }
+
                 if (string.IsNullOrEmpty(d.lineKey))
                 {
                     string key;
@@ -42,8 +50,9 @@ public static class DialogueKeyGenerator
                         key = graph.name + "_" + num.ToString("000");
                         num++;
                     }
-                    while (en.GetEntry(key) != null);
+                    while (en.GetEntry(key) != null || usedKeys.Contains(key));
                     d.lineKey = key;
+                    usedKeys.Add(d.lineKey);
                 }
                 Put(en, d.lineKey, d.dialogLine);
                 if (!string.IsNullOrEmpty(d.passengerName))

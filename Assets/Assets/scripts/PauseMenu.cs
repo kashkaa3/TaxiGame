@@ -25,7 +25,7 @@ public class PauseMenu : MonoBehaviour
     void Awake()
     {
         GameIsPaused = false;
-        Time.timeScale = 1f;
+        //Time.timeScale = 1f;
         confrimMenuUI.SetActive(false);
         pauseMenuUI.SetActive(false);
 
@@ -59,7 +59,7 @@ public class PauseMenu : MonoBehaviour
     void Resume()
     {
         pauseMenuUI.SetActive(false);
-        Time.timeScale = 1f;
+        Time.timeScale = NotesInteraction.IsOpen ? 0f : 1f; //if notes are open, keep the game paused, otherwise resume the game
         GameIsPaused = false;
         confrimMenuUI.SetActive(false);
         GameSettings.Save();

@@ -1,21 +1,31 @@
 using System.Collections;
 using UnityEngine;
 
-public class LightsController : MonoBehaviour
+public class LightsController : MonoBehaviour 
 {
     public RGBBlipSystem blipSystem;
     public Light[] lights;
     public float colorSmoothSpeed = 3f;
 
-    private Color currentColor = Color.white;
+
+    private Color[] startColor;
+    private Color[] currentColor;
     private float[] baseIntensity;
     private Coroutine flickerRoutine;
 
     void Awake()
     {
         baseIntensity = new float[lights.Length];
+        startColor = new Color[lights.Length];
+        currentColor = new Color[lights.Length];
+
         for (int i = 0; i < lights.Length; i++)
+        {
             baseIntensity[i] = lights[i].intensity;
+            startColor[i] = lights[i].color;
+            currentColor[i] = lights[i].color;
+        }
+            
     }
 
     void OnEnable()
@@ -29,11 +39,16 @@ public class LightsController : MonoBehaviour
 
     void Update()
     {
-        Color target = blipSystem.OutputColor;
-        currentColor = Color.Lerp(currentColor, target, Time.deltaTime * colorSmoothSpeed);
+        bool noBlips = blipSystem.Blips.Count == 0;
+        Color output = blipSystem.OutputColor;
 
-        foreach (Light l in lights)
-            l.color = currentColor;
+        for (int i = 0; i < lights.Length; i++)
+        {
+            Color target = noBlips ? startColor[i] : output;
+
+            currentColor[i] = Color.Lerp(currentColor[i], target, Time.deltaTime * colorSmoothSpeed);
+            lights[i].color = currentColor[i];
+        }
     }
 
     private void StartFlicker(float duration)

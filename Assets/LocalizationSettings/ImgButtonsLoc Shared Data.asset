@@ -51,6 +51,10 @@ MonoBehaviour:
     m_Key: Img_Sensetivity
     m_Metadata:
       m_Items: []
+  - m_Id: 325679547609088
+    m_Key: BTN_Options2
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items:
     - rid: 5949461089187004488
@@ -103,5 +107,9 @@ MonoBehaviour:
           m_TableCodes:
           - en
           - ko
+        - m_KeyId: 325679547609088
+          m_TableCodes:
+          - ko
+          - en
         m_TypeString: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null

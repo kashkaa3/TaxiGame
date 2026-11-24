@@ -33,8 +33,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 57487596122113
-    m_Localized: As you might be aware, in "STYXYZ" we not only care for our passengers
-      safe drive to their destination.
+    m_Localized: As you might be aware, at "STYXYZ", we care not only about getting
+      our passengers safely to their destinations...
     m_Metadata:
       m_Items: []
   - m_Id: 57487596122114
@@ -129,7 +129,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 57487596122132
-    m_Localized: 'To know if the atmospehere you''re creating is suiatable for the
+    m_Localized: 'To know if the atmosphere you''re creating is suitable for the
       passenger, you can always rely on the SYNCHRONIZER.
 
 '
@@ -157,8 +157,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 57487596122137
-    m_Localized: But do it enough times, and they might be overwhelmed, and will
-      not want to continue their talk.
+    m_Localized: But if you do it too many times, they might get overwhelmed and
+      decide not to continue the conversation.
     m_Metadata:
       m_Items: []
   - m_Id: 57487596122138
@@ -178,7 +178,7 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 57487596122141
     m_Localized: Sorry, that came out weird. I just don't get how you can be okay
-      with random people getting in your car every day.
+      ///with random people/// getting in your car every day.
     m_Metadata:
       m_Items: []
   - m_Id: 57487596122142
@@ -191,7 +191,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 57487596122144
-    m_Localized: I could never handle that many small talks in a day.
+    m_Localized: ///I could never/// handle that many small talks in a day.
     m_Metadata:
       m_Items: []
   - m_Id: 57487596122145
@@ -204,20 +204,8 @@ MonoBehaviour:
 '
     m_Metadata:
       m_Items: []
-  - m_Id: 57487596122147
-    m_Localized: 'Be carefull next time though, people usually can wait for around
-      23 seconds before they lose their thought.
-
-'
-    m_Metadata:
-      m_Items: []
-  - m_Id: 57487596122148
-    m_Localized: So if you're not gonna be able to find the right atmosphere for
-      them, they will not bother continuing.
-    m_Metadata:
-      m_Items: []
   - m_Id: 57487596122149
-    m_Localized: 'Okay, sorry. Time to work!
+    m_Localized: 'Time to work!
 
 '
     m_Metadata:
@@ -228,20 +216,8 @@ MonoBehaviour:
 '
     m_Metadata:
       m_Items: []
-  - m_Id: 57487596122151
-    m_Localized: 'Be carefull next time though, people usually can wait for around
-      23 seconds before they lose their thought.
-
-'
-    m_Metadata:
-      m_Items: []
-  - m_Id: 57487596122152
-    m_Localized: So if you're not gonna be able to find the right atmosphere for
-      them, they will not bother continuing.
-    m_Metadata:
-      m_Items: []
   - m_Id: 57487596122153
-    m_Localized: 'Okay, sorry. Time to work!
+    m_Localized: 'Time to work!
 
 '
     m_Metadata:
@@ -249,8 +225,8 @@ MonoBehaviour:
   - m_Id: 57487596122154
     m_Localized: 'Actually... maybe that''s not fair to them.
 
-      It more of a
-      "me" problem than those people problem.'
+      It''s more of
+      a "me" problem than those people problem.'
     m_Metadata:
       m_Items: []
   - m_Id: 57487596122155
@@ -266,12 +242,12 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 57487596122158
-    m_Localized: So I just don't bother talking. No review is better than a bad one,
-      right?
+    m_Localized: So I just ///don't bother/// talking. No review is better than a
+      bad one, right?
     m_Metadata:
       m_Items: []
   - m_Id: 57487596122159
-    m_Localized: I'm honestly surprised I even iniated this talk with you.
+    m_Localized: I'm honestly surprised I even initiated this talk with you.
     m_Metadata:
       m_Items: []
   - m_Id: 57487596122160
@@ -280,7 +256,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 57487596122161
-    m_Localized: He was probably right. He usually was.
+    m_Localized: He was probably right. ///He usually was///.
     m_Metadata:
       m_Items: []
   - m_Id: 57487596122162
@@ -318,13 +294,11 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 57487596122168
     m_Localized: And even then you don't even care in slightest about how I feel,
-      because I am never enough for them!
+      because I am ///never enough/// for them!
     m_Metadata:
       m_Items: []
   - m_Id: 57487596122169
-    m_Localized: 'UGH...
-
-      ...Sorry. I don''t usually yell in taxis.'
+    m_Localized: UGH...
     m_Metadata:
       m_Items: []
   - m_Id: 57487596122170
@@ -336,7 +310,7 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 57487596122171
     m_Localized: ...Me and that friend I was talking about broke up today. And...
-      I don't know, nothing makes sense anymore without him.
+      I don't know, ///nothing makes sense/// anymore without him.
     m_Metadata:
       m_Items: []
   - m_Id: 57487596122172
@@ -359,19 +333,19 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 57487596122175
-    m_Localized: If I knew beforehand that this would happened, maybe at least I
-      could prepare myself better.
+    m_Localized: If I knew beforehand that this would happen, maybe at least I could
+      prepare myself better.
     m_Metadata:
       m_Items: []
   - m_Id: 57487596122176
-    m_Localized: But it all came so suddently... We were just going to the cinema
+    m_Localized: But it all came so suddenly... We were just going to the cinema
       the other day, and now, can I even talk to him?
     m_Metadata:
       m_Items: []
   - m_Id: 57487596122177
     m_Localized: 'Because if that''s the case...
 
-      ...Guess we''ll see.
+      ...///Guess we''ll see///.
 
 '
     m_Metadata:
@@ -381,7 +355,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 57487596122179
-    m_Localized: 'Jezz... I hope I didn''t say too much.
+    m_Localized: 'Geez... I hope I didn''t say too much.
 
       Judging by your reaction
       you don''t mind me though.'
@@ -403,7 +377,7 @@ MonoBehaviour:
   - m_Id: 57487596122182
     m_Localized: 'Egh...
 
-      Anyways, what has been said, was said.'
+      Anyway, what''s said is said.'
     m_Metadata:
       m_Items: []
   - m_Id: 57487596122183
@@ -416,11 +390,11 @@ MonoBehaviour:
     m_Localized: 'Oh, is it my stop already?
 
       Thank you for the ride, and please,
-      if you can. Can you keep what I said between us?'
+      if you can. '
     m_Metadata:
       m_Items: []
   - m_Id: 57487596122185
-    m_Localized: I'll leave a good review, I know you care about those!
+    m_Localized: Can you keep what I said between us?
     m_Metadata:
       m_Items: []
   - m_Id: 57487596122186
@@ -462,7 +436,7 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 57487596122193
     m_Localized: You don't search for it. You don't even read the back. You just
-      open it, and someone's whole life is in there.
+      open it, and ///someone's whole life/// is in there.
     m_Metadata:
       m_Items: []
   - m_Id: 57487596122194
@@ -470,7 +444,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 57487596122195
-    m_Localized: 'I''d probably be one of those books nobody finishes.
+    m_Localized: 'I''d probably be one of those ///books nobody finishes///.
 
 '
     m_Metadata:
@@ -512,7 +486,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 57487596122202
-    m_Localized: 'She seems to be making friends every miniute.
+    m_Localized: 'She seems to be making friends every minute.
 
       I don''t know
       from where she got that.'
@@ -520,7 +494,7 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 57487596122203
     m_Localized: Even though I was the one who taught her to read. Me and her seem
-      to be total opposites
+      to be ///total opposites///.
     m_Metadata:
       m_Items: []
   - m_Id: 57487596122204
@@ -538,11 +512,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 57487596122207
-    m_Localized: Saying all of this out loud makes me sound like I'm jelous of her.
+    m_Localized: Saying all of this out loud makes me sound like I'm jealous of her.
     m_Metadata:
       m_Items: []
   - m_Id: 57487596122208
-    m_Localized: 'Maybe it''s kinda true. Ha. Don''t tell her.
+    m_Localized: 'Maybe it''s kinda true. ///Ha///. Don''t tell her.
 
 '
     m_Metadata:
@@ -558,8 +532,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 57487596122211
-    m_Localized: 'He did not like the ending... But I hope at least he enjoyed the
-      start.
+    m_Localized: 'He did not like the ending... But I hope at least he ///enjoyed
+      the start///.
 
 '
     m_Metadata:
@@ -575,7 +549,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 57487596122214
-    m_Localized: 'I appreciate him for that.
+    m_Localized: '///I appreciate/// him for that.
 
       A lot...'
     m_Metadata:
@@ -616,8 +590,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 57487596122221
-    m_Localized: I didn't think that a taxi drive would turn into a therapy session,
-      but I guess we are here now.
+    m_Localized: I didn't think a taxi ride would turn into a therapy session, but
+      here we are.
     m_Metadata:
       m_Items: []
   - m_Id: 57487596122222
@@ -655,8 +629,30 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 757112787365888
-    m_Localized: "Notes are on the seat to your right.\nYou can open them any time
+    m_Localized: "Notes are on the seat to your right.\r\nYou can open them any time
       you\u2019re not sure how to answer."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3353247208521728
+    m_Localized: I'll leave a good review, I know you care about those!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3353247309185024
+    m_Localized: I can see how it can be ///appealing///... nah I can't
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3353247309185025
+    m_Localized: 'Wavelength and height have different levels of distortion. To make
+      perfect answer you need to minimize distortion. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3353247309185026
+    m_Localized: If wave is disconnected, that means the light and music you used
+      are both correct, but they don't belong together.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3353247309185027
+    m_Localized: Find the best pair for them and you'll get perfect answer!
     m_Metadata:
       m_Items: []
   references:

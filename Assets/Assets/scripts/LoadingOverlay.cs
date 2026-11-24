@@ -19,6 +19,8 @@ public class LoadingOverlay : MonoBehaviour
 
     private float targetVolume = 1f;
 
+    public static bool IsLoading { get; private set; }
+
     private void Awake()
     {
         //Show the loading screen and freeze the game 
@@ -26,6 +28,7 @@ public class LoadingOverlay : MonoBehaviour
         backgroundGroup.alpha = 1f;
         backgroundGroup.blocksRaycasts = true; // blocks clicks on things
         Time.timeScale = 0f;
+        IsLoading = true;
 
         if (drivingSound != null)
         {
@@ -61,6 +64,7 @@ public class LoadingOverlay : MonoBehaviour
         //The game starts now
         Time.timeScale = 1f;
         backgroundGroup.blocksRaycasts = false;
+        IsLoading = false;
 
         if (drivingSound != null)
         {

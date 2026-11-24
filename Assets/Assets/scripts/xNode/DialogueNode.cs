@@ -8,7 +8,7 @@ public class DialogueNode : BaseNode
     [Output(backingValue = ShowBackingValue.Never)] public EmptyStruct exit;
 
     public string passengerName;
-    [TextArea] public string dialogLine;
+    [TextArea(5,12)] public string dialogLine;
 
     [Tooltip("Filled automatically by Tools > Localization > Sync Dialogue Graphs")]
     public string lineKey; //ID for the line in the localization system

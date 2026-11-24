@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class ObjInteraction : MonoBehaviour
 {
     public float interactDistance = 15f;
-    public float focusTime = 0.7f;
+    public float focusTime = 0.1f;
 
     public CursorSystem cursorV;
 

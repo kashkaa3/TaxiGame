@@ -15,56 +15,62 @@ MonoBehaviour:
   m_GroupName: Localization-Assets-English (en)
   m_GUID: 2826363e922733246822269c4a71e83b
   m_SerializeEntries:
-  - m_GUID: 6f47426bd0f5d384ca090e3bf06d88f3
-    m_Address: newgame_en
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-en
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 6fd1102db6b5d8d459fd19e95e2349b8
-    m_Address: sound_en
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-en
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 957560b9230a84c4da5dfd8478eaafc1
-    m_Address: sensitivity_en
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-en
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: a341bbb8ff71b4e498be96b07a42eed4
+  - m_GUID: 150c614786e0ec142bd8bb9d8b7f85fb
     m_Address: exit_en
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: a758168a251567e469281b0e17f9d77b
-    m_Address: options_en
+  - m_GUID: 213563500ed8ba44c852041618a97a44
+    m_Address: newgame_en
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: c3836a6a372ee154cafc30c2861aacfb
-    m_Address: music_en
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-en
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: c531f6f5e064c7a408fd404d5531daf8
-    m_Address: menu_en
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-en
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: d344e0acffd10cf42a72c2d27072a48d
+  - m_GUID: 298e81d56a2f28d4d983d186da69850d
     m_Address: continue_en
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: d495dec63d78b184bb6900bb03c49874
+  - m_GUID: 4f0baa67105b6df4691dd7209dc88307
+    m_Address: menu_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5feec3b6d370dba438829c0b64938f2f
+    m_Address: sound_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 615bbfc7fbb057147b3a1b6b70e276a6
+    m_Address: music_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b5c1850680486d0479b4522642817377
+    m_Address: options_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b839e137c8b232b40b44f190a11522c0
+    m_Address: options2_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e11f6a5c990e2bf458f08d39287ef1d4
     m_Address: back_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e9f22f115a5bbc148be446a17e9c3d4f
+    m_Address: sensitivity_en
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en

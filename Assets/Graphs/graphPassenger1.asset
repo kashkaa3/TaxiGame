@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 2568, y: 2728}
+  position: {x: 2632, y: 3160}
   ports:
     keys:
     - entry
@@ -64,7 +64,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 1192, y: 1160}
+  position: {x: 2072, y: 1288}
   ports:
     keys:
     - entry
@@ -76,7 +76,7 @@ MonoBehaviour:
         PublicKeyToken=null
       connections:
       - fieldName: exit
-        node: {fileID: 3145272850580168996}
+        node: {fileID: 3305960270260424809}
         reroutePoints: []
       _direction: 0
       _connectionType: 0
@@ -113,7 +113,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: -392, y: 2072}
+  position: {x: -376, y: 2280}
   ports:
     keys:
     - entry
@@ -144,7 +144,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   passengerName: Vanessa
-  dialogLine: I'm honestly surprised I even iniated this talk with you.
+  dialogLine: I'm honestly surprised I even initiated this talk with you.
   lineKey: graphPassenger1_048
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
   hideSprite: 0
@@ -162,7 +162,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 88, y: 3560}
+  position: {x: 152, y: 4072}
   ports:
     keys:
     - entry
@@ -213,7 +213,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 3496, y: 3672}
+  position: {x: 3560, y: 4264}
   ports:
     keys:
     - entry
@@ -262,7 +262,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 2824, y: 3944}
+  position: {x: 2888, y: 4456}
   ports:
     keys:
     - entry
@@ -310,7 +310,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 1944, y: 2808}
+  position: {x: 2008, y: 3240}
   ports:
     keys:
     - entry
@@ -362,7 +362,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 3480, y: 3448}
+  position: {x: 3544, y: 3960}
   ports:
     keys:
     - entry
@@ -412,7 +412,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 120, y: 2072}
+  position: {x: 136, y: 2280}
   ports:
     keys:
     - entry
@@ -443,7 +443,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   passengerName: Vanessa
-  dialogLine: He was probably right. He usually was.
+  dialogLine: He was probably right. ///He usually was///.
   lineKey: graphPassenger1_050
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
   hideSprite: 0
@@ -461,7 +461,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 936, y: 2936}
+  position: {x: 1000, y: 3448}
   ports:
     keys:
     - entry
@@ -507,7 +507,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 1464, y: 3048}
+  position: {x: 1528, y: 3560}
   ports:
     keys:
     - entry
@@ -539,7 +539,7 @@ MonoBehaviour:
       _dynamic: 0
   passengerName: Vanessa
   dialogLine: Even though I was the one who taught her to read. Me and her seem to
-    be total opposites
+    be ///total opposites///.
   lineKey: graphPassenger1_092
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
   hideSprite: 0
@@ -557,7 +557,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 104, y: 888}
+  position: {x: 88, y: 856}
   ports:
     keys:
     - entry
@@ -588,7 +588,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   passengerName: O.A.R.
-  dialogLine: 'To know if the atmospehere you''re creating is suiatable for the passenger,
+  dialogLine: 'To know if the atmosphere you''re creating is suitable for the passenger,
     you can always rely on the SYNCHRONIZER.
 
 '
@@ -609,7 +609,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 584, y: -200}
+  position: {x: 584, y: -408}
   ports:
     keys:
     - entry
@@ -658,7 +658,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 408, y: 2472}
+  position: {x: 472, y: 2904}
   ports:
     keys:
     - entry
@@ -710,7 +710,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: -136, y: 3784}
+  position: {x: -72, y: 4408}
   ports:
     keys:
     - entry
@@ -761,7 +761,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 1320, y: 1528}
+  position: {x: 1336, y: 1592}
   ports:
     keys:
     - entry
@@ -812,7 +812,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: -136, y: 2072}
+  position: {x: -120, y: 2280}
   ports:
     keys:
     - entry
@@ -862,7 +862,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 920, y: 456}
+  position: {x: 920, y: 376}
   ports:
     keys:
     - entry
@@ -912,7 +912,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 1944, y: 3032}
+  position: {x: 2008, y: 3544}
   ports:
     keys:
     - entry
@@ -963,7 +963,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: -856, y: 2424}
+  position: {x: -808, y: 2712}
   ports:
     keys:
     - entry
@@ -1015,7 +1015,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 2344, y: 888}
+  position: {x: 280, y: 1256}
   ports:
     keys:
     - entry
@@ -1066,7 +1066,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: -792, y: 3416}
+  position: {x: -728, y: 3928}
   ports:
     keys:
     - entry
@@ -1112,7 +1112,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 1576, y: 2040}
+  position: {x: 1592, y: 2248}
   ports:
     keys:
     - entry
@@ -1148,6 +1148,56 @@ MonoBehaviour:
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
   hideSprite: 0
   hideName: 0
+--- !u!114 &-6636388202179512909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cd97fbdb4d7d744ab856c0b79a4f20b, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
+  graph: {fileID: 11400000}
+  position: {x: 872, y: 872}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: -6636388202179512909}
+      _typeQualifiedName: EmptyStruct, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: exit
+        node: {fileID: -3086406757078328131}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: -6636388202179512909}
+      _typeQualifiedName: EmptyStruct, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: entry
+        node: {fileID: -165521983756519117}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  passengerName: O.A.R.
+  dialogLine: If wave is disconnected, that means the light and music you used are
+    both correct, but they don't belong together.
+  lineKey: graphPassenger1_122
+  sprite: {fileID: 0}
+  hideSprite: 0
+  hideName: 0
 --- !u!114 &-6631481780450857474
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1161,7 +1211,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 3240, y: 3672}
+  position: {x: 3304, y: 4264}
   ports:
     keys:
     - entry
@@ -1212,7 +1262,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: -408, y: 1544}
+  position: {x: -392, y: 1608}
   ports:
     keys:
     - entry
@@ -1263,7 +1313,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 1624, y: 872}
+  position: {x: 2328, y: 856}
   ports:
     keys:
     - entry
@@ -1312,7 +1362,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 824, y: 56}
+  position: {x: 824, y: -104}
   ports:
     keys:
     - entry
@@ -1361,7 +1411,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 3032, y: 2728}
+  position: {x: 3096, y: 3160}
   ports:
     keys:
     - entry
@@ -1411,7 +1461,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 104, y: 1544}
+  position: {x: 120, y: 1608}
   ports:
     keys:
     - entry
@@ -1462,7 +1512,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 2104, y: 872}
+  position: {x: 40, y: 1240}
   ports:
     keys:
     - entry
@@ -1493,8 +1543,8 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   passengerName: O.A.R.
-  dialogLine: But do it enough times, and they might be overwhelmed, and will not
-    want to continue their talk.
+  dialogLine: But if you do it too many times, they might get overwhelmed and decide
+    not to continue the conversation.
   lineKey: graphPassenger1_026
   sprite: {fileID: 0}
   hideSprite: 0
@@ -1512,7 +1562,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 712, y: 2744}
+  position: {x: 776, y: 3176}
   ports:
     keys:
     - entry
@@ -1568,7 +1618,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 1704, y: 2808}
+  position: {x: 1768, y: 3240}
   ports:
     keys:
     - entry
@@ -1618,7 +1668,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 2872, y: 2952}
+  position: {x: 2936, y: 3464}
   ports:
     keys:
     - entry
@@ -1649,7 +1699,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   passengerName: Vanessa
-  dialogLine: 'I appreciate him for that.
+  dialogLine: '///I appreciate/// him for that.
 
     A lot...'
   lineKey: graphPassenger1_103
@@ -1669,7 +1719,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 904, y: 872}
+  position: {x: 1608, y: 856}
   ports:
     keys:
     - entry
@@ -1719,7 +1769,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: -1080, y: 3416}
+  position: {x: -1016, y: 3928}
   ports:
     keys:
     - entry
@@ -1769,7 +1819,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 88, y: 2776}
+  position: {x: 152, y: 3208}
   ports:
     keys:
     - entry
@@ -1818,7 +1868,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 1304, y: 56}
+  position: {x: 1304, y: -104}
   ports:
     keys:
     - entry
@@ -1867,7 +1917,7 @@ MonoBehaviour:
   m_Name: Tutorial
   m_EditorClassIdentifier: Assembly-CSharp::TutorialNode
   graph: {fileID: 11400000}
-  position: {x: 600, y: 312}
+  position: {x: 600, y: 216}
   ports:
     keys:
     - entry
@@ -1913,7 +1963,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 56, y: 56}
+  position: {x: 56, y: -104}
   ports:
     keys:
     - entry
@@ -1962,7 +2012,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 88, y: 3240}
+  position: {x: 152, y: 3752}
   ports:
     keys:
     - entry
@@ -1994,9 +2044,59 @@ MonoBehaviour:
       _dynamic: 0
   passengerName: Vanessa
   dialogLine: ...Me and that friend I was talking about broke up today. And... I
-    don't know, nothing makes sense anymore without him.
+    don't know, ///nothing makes sense/// anymore without him.
   lineKey: graphPassenger1_060
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
+--- !u!114 &-3086406757078328131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cd97fbdb4d7d744ab856c0b79a4f20b, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
+  graph: {fileID: 11400000}
+  position: {x: 632, y: 872}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: -3086406757078328131}
+      _typeQualifiedName: EmptyStruct, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: exit
+        node: {fileID: -2860878924350165699}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: -3086406757078328131}
+      _typeQualifiedName: EmptyStruct, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: entry
+        node: {fileID: -6636388202179512909}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  passengerName: O.A.R.
+  dialogLine: 'Wavelength and height have different levels of distortion. To make
+    perfect answer you need to minimize distortion. '
+  lineKey: graphPassenger1_121
+  sprite: {fileID: 0}
   hideSprite: 0
   hideName: 0
 --- !u!114 &-3077211005456208381
@@ -2012,7 +2112,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 2616, y: 2952}
+  position: {x: 2680, y: 3464}
   ports:
     keys:
     - entry
@@ -2062,7 +2162,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 2808, y: 2728}
+  position: {x: 2872, y: 3160}
   ports:
     keys:
     - entry
@@ -2093,7 +2193,8 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   passengerName: Vanessa
-  dialogLine: 'He did not like the ending... But I hope at least he enjoyed the start.
+  dialogLine: 'He did not like the ending... But I hope at least he ///enjoyed the
+    start///.
 
 '
   lineKey: graphPassenger1_100
@@ -2113,7 +2214,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 376, y: 888}
+  position: {x: 360, y: 856}
   ports:
     keys:
     - entry
@@ -2137,7 +2238,7 @@ MonoBehaviour:
         PublicKeyToken=null
       connections:
       - fieldName: entry
-        node: {fileID: -937323927779282823}
+        node: {fileID: -3086406757078328131}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -2165,7 +2266,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: -488, y: 2696}
+  position: {x: -424, y: 3128}
   ports:
     keys:
     - entry
@@ -2214,7 +2315,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 1624, y: 3288}
+  position: {x: 1704, y: 3896}
   ports:
     keys:
     - entry
@@ -2245,7 +2346,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   passengerName: Vanessa
-  dialogLine: Saying all of this out loud makes me sound like I'm jelous of her.
+  dialogLine: Saying all of this out loud makes me sound like I'm jealous of her.
   lineKey: graphPassenger1_096
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
   hideSprite: 0
@@ -2263,7 +2364,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: -1160, y: 2696}
+  position: {x: -1096, y: 3128}
   ports:
     keys:
     - entry
@@ -2294,7 +2395,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   passengerName: Vanessa
-  dialogLine: If I knew beforehand that this would happened, maybe at least I could
+  dialogLine: If I knew beforehand that this would happen, maybe at least I could
     prepare myself better.
   lineKey: graphPassenger1_064
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
@@ -2313,7 +2414,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 1000, y: 2488}
+  position: {x: 1064, y: 2920}
   ports:
     keys:
     - entry
@@ -2365,7 +2466,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 1352, y: -200}
+  position: {x: 1352, y: -408}
   ports:
     keys:
     - entry
@@ -2415,7 +2516,7 @@ MonoBehaviour:
   m_Name: Tutorial
   m_EditorClassIdentifier: Assembly-CSharp::TutorialNode
   graph: {fileID: 11400000}
-  position: {x: 616, y: 712}
+  position: {x: 616, y: 696}
   ports:
     keys:
     - entry
@@ -2461,7 +2562,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 24, y: 4088}
+  position: {x: 104, y: 4760}
   ports:
     keys:
     - entry
@@ -2490,7 +2591,7 @@ MonoBehaviour:
       _dynamic: 0
   passengerName: Vanessa
   dialogLine: I'll leave a good review, I know you care about those!
-  lineKey: graphPassenger1_074
+  lineKey: graphPassenger1_119
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
   hideSprite: 0
   hideName: 0
@@ -2507,7 +2608,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 584, y: 456}
+  position: {x: 584, y: 376}
   ports:
     keys:
     - entry
@@ -2557,7 +2658,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: -1128, y: 2440}
+  position: {x: -1080, y: 2728}
   ports:
     keys:
     - entry
@@ -2610,7 +2711,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: -152, y: 3240}
+  position: {x: -88, y: 3752}
   ports:
     keys:
     - entry
@@ -2662,7 +2763,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 664, y: 888}
+  position: {x: 1384, y: 856}
   ports:
     keys:
     - entry
@@ -2674,7 +2775,7 @@ MonoBehaviour:
         PublicKeyToken=null
       connections:
       - fieldName: exit
-        node: {fileID: -2860878924350165699}
+        node: {fileID: -165521983756519117}
         reroutePoints: []
       _direction: 0
       _connectionType: 0
@@ -2712,7 +2813,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 1352, y: 872}
+  position: {x: 2088, y: 856}
   ports:
     keys:
     - entry
@@ -2762,7 +2863,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: -936, y: 2696}
+  position: {x: -872, y: 3128}
   ports:
     keys:
     - entry
@@ -2793,7 +2894,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   passengerName: Vanessa
-  dialogLine: But it all came so suddently... We were just going to the cinema the
+  dialogLine: But it all came so suddenly... We were just going to the cinema the
     other day, and now, can I even talk to him?
   lineKey: graphPassenger1_065
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
@@ -2812,7 +2913,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 328, y: 2776}
+  position: {x: 392, y: 3208}
   ports:
     keys:
     - entry
@@ -2862,7 +2963,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 360, y: 1144}
+  position: {x: 1080, y: 1272}
   ports:
     keys:
     - entry
@@ -2898,53 +2999,6 @@ MonoBehaviour:
   sprite: {fileID: 0}
   hideSprite: 0
   hideName: 0
---- !u!114 &-403425770338826746
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8cd97fbdb4d7d744ab856c0b79a4f20b, type: 3}
-  m_Name: Dialogue
-  m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
-  graph: {fileID: 11400000}
-  position: {x: 1880, y: 1240}
-  ports:
-    keys:
-    - entry
-    - exit
-    values:
-    - _fieldName: entry
-      _node: {fileID: -403425770338826746}
-      _typeQualifiedName: EmptyStruct, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-        PublicKeyToken=null
-      connections:
-      - fieldName: exit
-        node: {fileID: 3340116496687329708}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: exit
-      _node: {fileID: -403425770338826746}
-      _typeQualifiedName: EmptyStruct, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-        PublicKeyToken=null
-      connections: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  passengerName: O.A.R.
-  dialogLine: So if you're not gonna be able to find the right atmosphere for them,
-    they will not bother continuing.
-  lineKey: graphPassenger1_041
-  sprite: {fileID: 0}
-  hideSprite: 0
-  hideName: 0
 --- !u!114 &-305645120444436940
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2958,7 +3012,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 1128, y: 872}
+  position: {x: 1832, y: 856}
   ports:
     keys:
     - entry
@@ -3008,7 +3062,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: -600, y: 2424}
+  position: {x: -552, y: 2712}
   ports:
     keys:
     - entry
@@ -3059,7 +3113,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: -120, y: 1832}
+  position: {x: -104, y: 1944}
   ports:
     keys:
     - entry
@@ -3108,7 +3162,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 2104, y: 3288}
+  position: {x: 2184, y: 3896}
   ports:
     keys:
     - entry
@@ -3142,6 +3196,55 @@ MonoBehaviour:
   dialogLine: ...
   lineKey: graphPassenger1_098
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
+  hideSprite: 0
+  hideName: 0
+--- !u!114 &-165521983756519117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cd97fbdb4d7d744ab856c0b79a4f20b, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
+  graph: {fileID: 11400000}
+  position: {x: 1112, y: 856}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: -165521983756519117}
+      _typeQualifiedName: EmptyStruct, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: exit
+        node: {fileID: -6636388202179512909}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: -165521983756519117}
+      _typeQualifiedName: EmptyStruct, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: entry
+        node: {fileID: -937323927779282823}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  passengerName: O.A.R.
+  dialogLine: Find the best pair for them and you'll get perfect answer!
+  lineKey: graphPassenger1_123
+  sprite: {fileID: 0}
   hideSprite: 0
   hideName: 0
 --- !u!114 &11400000
@@ -3196,12 +3299,8 @@ MonoBehaviour:
   - {fileID: -8980973816660943336}
   - {fileID: -6619519688242885609}
   - {fileID: 7184981775696164797}
-  - {fileID: 7356605598068822500}
-  - {fileID: 3020464287169303858}
   - {fileID: -5775432972784685058}
   - {fileID: -7391627430175953332}
-  - {fileID: 3340116496687329708}
-  - {fileID: -403425770338826746}
   - {fileID: 805970370456554308}
   - {fileID: 2341702669690114430}
   - {fileID: 8070533937630879028}
@@ -3284,6 +3383,10 @@ MonoBehaviour:
   - {fileID: -5282927897850860939}
   - {fileID: -305645120444436940}
   - {fileID: -1495187150381905893}
+  - {fileID: 3305960270260424809}
+  - {fileID: -3086406757078328131}
+  - {fileID: -6636388202179512909}
+  - {fileID: -165521983756519117}
 --- !u!114 &264144818505741905
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3297,7 +3400,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 88, y: 3016}
+  position: {x: 152, y: 3528}
   ports:
     keys:
     - entry
@@ -3329,7 +3432,7 @@ MonoBehaviour:
       _dynamic: 0
   passengerName: Vanessa
   dialogLine: And even then you don't even care in slightest about how I feel, because
-    I am never enough for them!
+    I am ///never enough/// for them!
   lineKey: graphPassenger1_057
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
   hideSprite: 0
@@ -3347,7 +3450,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 1832, y: 2040}
+  position: {x: 1848, y: 2248}
   ports:
     keys:
     - entry
@@ -3398,7 +3501,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 568, y: 56}
+  position: {x: 568, y: -104}
   ports:
     keys:
     - entry
@@ -3450,7 +3553,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 2024, y: 1544}
+  position: {x: 2040, y: 1608}
   ports:
     keys:
     - entry
@@ -3501,7 +3604,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 312, y: 56}
+  position: {x: 312, y: -104}
   ports:
     keys:
     - entry
@@ -3551,7 +3654,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 1784, y: 1800}
+  position: {x: 1800, y: 1912}
   ports:
     keys:
     - entry
@@ -3583,7 +3686,7 @@ MonoBehaviour:
       _dynamic: 0
   passengerName: Vanessa
   dialogLine: You don't search for it. You don't even read the back. You just open
-    it, and someone's whole life is in there.
+    it, and ///someone's whole life/// is in there.
   lineKey: graphPassenger1_082
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
   hideSprite: 0
@@ -3601,7 +3704,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: -264, y: 4072}
+  position: {x: -184, y: 4744}
   ports:
     keys:
     - entry
@@ -3650,7 +3753,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 2584, y: 3944}
+  position: {x: 2648, y: 4456}
   ports:
     keys:
     - entry
@@ -3701,7 +3804,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 328, y: 3016}
+  position: {x: 392, y: 3528}
   ports:
     keys:
     - entry
@@ -3750,7 +3853,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: -152, y: 2776}
+  position: {x: -88, y: 3208}
   ports:
     keys:
     - entry
@@ -3803,7 +3906,7 @@ MonoBehaviour:
   m_Name: Start
   m_EditorClassIdentifier: Assembly-CSharp::StartNode
   graph: {fileID: 11400000}
-  position: {x: -488, y: -184}
+  position: {x: -568, y: -312}
   ports:
     keys:
     - exit
@@ -3833,7 +3936,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 104, y: 3784}
+  position: {x: 168, y: 4408}
   ports:
     keys:
     - entry
@@ -3885,7 +3988,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 3128, y: 2952}
+  position: {x: 3192, y: 3464}
   ports:
     keys:
     - entry
@@ -3935,7 +4038,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: -200, y: 56}
+  position: {x: -200, y: -104}
   ports:
     keys:
     - entry
@@ -3984,7 +4087,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 2024, y: 1800}
+  position: {x: 2040, y: 1912}
   ports:
     keys:
     - entry
@@ -4033,7 +4136,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 1704, y: 3048}
+  position: {x: 1768, y: 3560}
   ports:
     keys:
     - entry
@@ -4082,7 +4185,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: -632, y: 1832}
+  position: {x: -616, y: 1944}
   ports:
     keys:
     - entry
@@ -4115,7 +4218,7 @@ MonoBehaviour:
   passengerName: Vanessa
   dialogLine: 'Actually... maybe that''s not fair to them.
 
-    It more of a "me"
+    It''s more of a "me"
     problem than those people problem.'
   lineKey: graphPassenger1_043
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
@@ -4134,7 +4237,7 @@ MonoBehaviour:
   m_Name: Choice
   m_EditorClassIdentifier: Assembly-CSharp::ChoiceNode
   graph: {fileID: 11400000}
-  position: {x: -248, y: 2360}
+  position: {x: -200, y: 2648}
   ports:
     keys:
     - entry
@@ -4223,7 +4326,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 328, y: -200}
+  position: {x: 328, y: -408}
   ports:
     keys:
     - entry
@@ -4254,8 +4357,8 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   passengerName: 
-  dialogLine: As you might be aware, in "STYXYZ" we not only care for our passengers
-    safe drive to their destination.
+  dialogLine: As you might be aware, at "STYXYZ", we care not only about getting
+    our passengers safely to their destinations...
   lineKey: graphPassenger1_003
   sprite: {fileID: 0}
   hideSprite: 0
@@ -4273,7 +4376,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 1528, y: 280}
+  position: {x: 1528, y: 184}
   ports:
     keys:
     - entry
@@ -4325,7 +4428,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: -152, y: 3000}
+  position: {x: -88, y: 3512}
   ports:
     keys:
     - entry
@@ -4374,7 +4477,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: -712, y: 2696}
+  position: {x: -648, y: 3128}
   ports:
     keys:
     - entry
@@ -4407,58 +4510,11 @@ MonoBehaviour:
   passengerName: Vanessa
   dialogLine: 'Because if that''s the case...
 
-    ...Guess we''ll see.
+    ...///Guess we''ll see///.
 
 '
   lineKey: graphPassenger1_066
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
-  hideSprite: 0
-  hideName: 0
---- !u!114 &3020464287169303858
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8cd97fbdb4d7d744ab856c0b79a4f20b, type: 3}
-  m_Name: Dialogue
-  m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
-  graph: {fileID: 11400000}
-  position: {x: -472, y: 1256}
-  ports:
-    keys:
-    - entry
-    - exit
-    values:
-    - _fieldName: entry
-      _node: {fileID: 3020464287169303858}
-      _typeQualifiedName: EmptyStruct, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-        PublicKeyToken=null
-      connections:
-      - fieldName: exit
-        node: {fileID: 7356605598068822500}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: exit
-      _node: {fileID: 3020464287169303858}
-      _typeQualifiedName: EmptyStruct, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-        PublicKeyToken=null
-      connections: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  passengerName: O.A.R.
-  dialogLine: So if you're not gonna be able to find the right atmosphere for them,
-    they will not bother continuing.
-  lineKey: graphPassenger1_037
-  sprite: {fileID: 0}
   hideSprite: 0
   hideName: 0
 --- !u!114 &3145272850580168996
@@ -4474,7 +4530,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 888, y: 1144}
+  position: {x: 1608, y: 1272}
   ports:
     keys:
     - entry
@@ -4498,14 +4554,14 @@ MonoBehaviour:
         PublicKeyToken=null
       connections:
       - fieldName: entry
-        node: {fileID: -8980973816660943336}
+        node: {fileID: 3305960270260424809}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
   passengerName: Vanessa
-  dialogLine: I could never handle that many small talks in a day.
+  dialogLine: ///I could never/// handle that many small talks in a day.
   lineKey: graphPassenger1_033
   sprite: {fileID: 0}
   hideSprite: 0
@@ -4523,7 +4579,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 1080, y: -200}
+  position: {x: 1080, y: -408}
   ports:
     keys:
     - entry
@@ -4559,7 +4615,7 @@ MonoBehaviour:
   sprite: {fileID: 0}
   hideSprite: 0
   hideName: 0
---- !u!114 &3340116496687329708
+--- !u!114 &3305960270260424809
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4572,39 +4628,39 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 1608, y: 1240}
+  position: {x: 1832, y: 1288}
   ports:
     keys:
     - entry
     - exit
     values:
     - _fieldName: entry
-      _node: {fileID: 3340116496687329708}
+      _node: {fileID: 3305960270260424809}
       _typeQualifiedName: EmptyStruct, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
-      connections: []
+      connections:
+      - fieldName: exit
+        node: {fileID: 3145272850580168996}
+        reroutePoints: []
       _direction: 0
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
     - _fieldName: exit
-      _node: {fileID: 3340116496687329708}
+      _node: {fileID: 3305960270260424809}
       _typeQualifiedName: EmptyStruct, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
       connections:
       - fieldName: entry
-        node: {fileID: -403425770338826746}
+        node: {fileID: -8980973816660943336}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  passengerName: O.A.R.
-  dialogLine: 'Be carefull next time though, people usually can wait for around 23
-    seconds before they lose their thought.
-
-'
-  lineKey: graphPassenger1_040
+  passengerName: Vanessa
+  dialogLine: I can see how it can be ///appealing///... nah I can't
+  lineKey: graphPassenger1_120
   sprite: {fileID: 0}
   hideSprite: 0
   hideName: 0
@@ -4621,7 +4677,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: -191.28392, y: 1143.1552}
+  position: {x: 520, y: 1272}
   ports:
     keys:
     - entry
@@ -4670,7 +4726,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: -184, y: 856}
+  position: {x: -200, y: 824}
   ports:
     keys:
     - entry
@@ -4721,7 +4777,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: -376, y: 3784}
+  position: {x: -312, y: 4408}
   ports:
     keys:
     - entry
@@ -4754,7 +4810,7 @@ MonoBehaviour:
   passengerName: Vanessa
   dialogLine: 'Egh...
 
-    Anyways, what has been said, was said.'
+    Anyway, what''s said is said.'
   lineKey: graphPassenger1_071
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
   hideSprite: 0
@@ -4772,7 +4828,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 1864, y: 888}
+  position: {x: -200, y: 1256}
   ports:
     keys:
     - entry
@@ -4821,7 +4877,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 1480, y: 1800}
+  position: {x: 1496, y: 1912}
   ports:
     keys:
     - entry
@@ -4870,7 +4926,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 3768, y: 3448}
+  position: {x: 3832, y: 3960}
   ports:
     keys:
     - entry
@@ -4901,8 +4957,8 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   passengerName: Vanessa
-  dialogLine: I didn't think that a taxi drive would turn into a therapy session,
-    but I guess we are here now.
+  dialogLine: I didn't think a taxi ride would turn into a therapy session, but here
+    we are.
   lineKey: graphPassenger1_110
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
   hideSprite: 0
@@ -4920,7 +4976,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 360, y: 2072}
+  position: {x: 376, y: 2280}
   ports:
     keys:
     - entry
@@ -4969,7 +5025,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 632, y: 1144}
+  position: {x: 1352, y: 1272}
   ports:
     keys:
     - entry
@@ -5019,7 +5075,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 3384, y: 2968}
+  position: {x: 3448, y: 3480}
   ports:
     keys:
     - entry
@@ -5070,7 +5126,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 2200, y: 2808}
+  position: {x: 2264, y: 3240}
   ports:
     keys:
     - entry
@@ -5101,7 +5157,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   passengerName: Vanessa
-  dialogLine: 'She seems to be making friends every miniute.
+  dialogLine: 'She seems to be making friends every minute.
 
     I don''t know from
     where she got that.'
@@ -5122,7 +5178,7 @@ MonoBehaviour:
   m_Name: Choice
   m_EditorClassIdentifier: Assembly-CSharp::ChoiceNode
   graph: {fileID: 11400000}
-  position: {x: 1656, y: 2360}
+  position: {x: 1704, y: 2648}
   ports:
     keys:
     - entry
@@ -5211,7 +5267,7 @@ MonoBehaviour:
   m_Name: Choice
   m_EditorClassIdentifier: Assembly-CSharp::ChoiceNode
   graph: {fileID: 11400000}
-  position: {x: 2584, y: 3560}
+  position: {x: 2648, y: 4072}
   ports:
     keys:
     - entry
@@ -5287,7 +5343,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 1320, y: 2024}
+  position: {x: 1336, y: 2232}
   ports:
     keys:
     - entry
@@ -5318,7 +5374,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   passengerName: Vanessa
-  dialogLine: 'I''d probably be one of those books nobody finishes.
+  dialogLine: 'I''d probably be one of those ///books nobody finishes///.
 
 '
   lineKey: graphPassenger1_084
@@ -5338,7 +5394,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: -392, y: 3560}
+  position: {x: -328, y: 4072}
   ports:
     keys:
     - entry
@@ -5369,7 +5425,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   passengerName: Vanessa
-  dialogLine: 'Jezz... I hope I didn''t say too much.
+  dialogLine: 'Geez... I hope I didn''t say too much.
 
     Judging by your reaction
     you don''t mind me though.'
@@ -5390,7 +5446,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 1288, y: 472}
+  position: {x: 1288, y: 392}
   ports:
     keys:
     - entry
@@ -5440,7 +5496,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 1848, y: 3288}
+  position: {x: 1928, y: 3896}
   ports:
     keys:
     - entry
@@ -5471,7 +5527,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   passengerName: Vanessa
-  dialogLine: 'Maybe it''s kinda true. Ha. Don''t tell her.
+  dialogLine: 'Maybe it''s kinda true. ///Ha///. Don''t tell her.
 
 '
   lineKey: graphPassenger1_097
@@ -5491,7 +5547,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 72, y: -200}
+  position: {x: 72, y: -408}
   ports:
     keys:
     - entry
@@ -5541,7 +5597,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 264, y: 456}
+  position: {x: 120, y: 376}
   ports:
     keys:
     - entry
@@ -5591,7 +5647,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: -200, y: 456}
+  position: {x: -200, y: 376}
   ports:
     keys:
     - entry
@@ -5643,7 +5699,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 3224, y: 3448}
+  position: {x: 3288, y: 3960}
   ports:
     keys:
     - entry
@@ -5695,7 +5751,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 824, y: -200}
+  position: {x: 824, y: -408}
   ports:
     keys:
     - entry
@@ -5745,7 +5801,7 @@ MonoBehaviour:
   m_Name: Choice
   m_EditorClassIdentifier: Assembly-CSharp::ChoiceNode
   graph: {fileID: 11400000}
-  position: {x: -664, y: 3016}
+  position: {x: -600, y: 3528}
   ports:
     keys:
     - entry
@@ -5821,7 +5877,7 @@ MonoBehaviour:
   m_Name: Choice
   m_EditorClassIdentifier: Assembly-CSharp::ChoiceNode
   graph: {fileID: 11400000}
-  position: {x: 696, y: 1416}
+  position: {x: 712, y: 1592}
   ports:
     keys:
     - entry
@@ -5894,55 +5950,6 @@ MonoBehaviour:
     points: 2
   noTimeLimit: 1
   holdTime: 3
---- !u!114 &7356605598068822500
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8cd97fbdb4d7d744ab856c0b79a4f20b, type: 3}
-  m_Name: Dialogue
-  m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
-  graph: {fileID: 11400000}
-  position: {x: -760, y: 1256}
-  ports:
-    keys:
-    - entry
-    - exit
-    values:
-    - _fieldName: entry
-      _node: {fileID: 7356605598068822500}
-      _typeQualifiedName: EmptyStruct, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-        PublicKeyToken=null
-      connections: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: exit
-      _node: {fileID: 7356605598068822500}
-      _typeQualifiedName: EmptyStruct, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-        PublicKeyToken=null
-      connections:
-      - fieldName: entry
-        node: {fileID: 3020464287169303858}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  passengerName: O.A.R.
-  dialogLine: 'Be carefull next time though, people usually can wait for around 23
-    seconds before they lose their thought.
-
-'
-  lineKey: graphPassenger1_036
-  sprite: {fileID: 0}
-  hideSprite: 0
-  hideName: 0
 --- !u!114 &7622025209174044883
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5956,7 +5963,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 1528, y: 56}
+  position: {x: 1528, y: -104}
   ports:
     keys:
     - entry
@@ -6006,7 +6013,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 1461.3254, y: 2809.208}
+  position: {x: 1528, y: 3240}
   ports:
     keys:
     - entry
@@ -6058,7 +6065,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: -184, y: -200}
+  position: {x: -184, y: -408}
   ports:
     keys:
     - entry
@@ -6108,7 +6115,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 328, y: 3240}
+  position: {x: 392, y: 3752}
   ports:
     keys:
     - entry
@@ -6159,7 +6166,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: -376, y: 1832}
+  position: {x: -360, y: 1944}
   ports:
     keys:
     - entry
@@ -6208,7 +6215,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 1240, y: 1800}
+  position: {x: 1256, y: 1912}
   ports:
     keys:
     - entry
@@ -6257,7 +6264,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 88, y: 1144}
+  position: {x: 808, y: 1272}
   ports:
     keys:
     - entry
@@ -6288,8 +6295,8 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   passengerName: Vanessa
-  dialogLine: Sorry, that came out weird. I just don't get how you can be okay with
-    random people getting in your car every day.
+  dialogLine: Sorry, that came out weird. I just don't get how you can be okay ///with
+    random people/// getting in your car every day.
   lineKey: graphPassenger1_030
   sprite: {fileID: 0}
   hideSprite: 0
@@ -6307,7 +6314,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 3768, y: 3672}
+  position: {x: 3832, y: 4264}
   ports:
     keys:
     - entry
@@ -6358,7 +6365,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 4024, y: 3672}
+  position: {x: 4088, y: 4264}
   ports:
     keys:
     - entry
@@ -6404,7 +6411,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 2200, y: 3048}
+  position: {x: 2264, y: 3560}
   ports:
     keys:
     - entry
@@ -6453,7 +6460,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 1080, y: 56}
+  position: {x: 1080, y: -104}
   ports:
     keys:
     - entry
@@ -6502,7 +6509,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: -648, y: 2072}
+  position: {x: -632, y: 2280}
   ports:
     keys:
     - entry
@@ -6533,8 +6540,8 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   passengerName: Vanessa
-  dialogLine: So I just don't bother talking. No review is better than a bad one,
-    right?
+  dialogLine: So I just ///don't bother/// talking. No review is better than a bad
+    one, right?
   lineKey: graphPassenger1_047
   sprite: {fileID: 21300000, guid: a203720871e4a3f47ade467742dc3570, type: 3}
   hideSprite: 0
@@ -6552,7 +6559,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: 120, y: 1832}
+  position: {x: 136, y: 1944}
   ports:
     keys:
     - entry
@@ -6601,7 +6608,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   graph: {fileID: 11400000}
-  position: {x: -152, y: 3560}
+  position: {x: -88, y: 4072}
   ports:
     keys:
     - entry
